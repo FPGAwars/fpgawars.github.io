@@ -11,3 +11,15 @@ h1 {
 p {
     font-size: 20px;
 }
+
+ul.a {
+    list-style-type: circle;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+    padding-right: 50%;
+    padding-left: 40%;
+}
