@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+    font-family: "Arial";
+}
+
+h1 {
+    color: lightblack;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
