@@ -1,25 +1,99 @@
+/*******************************************************************************
+MeyerWeb Reset
+*******************************************************************************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*******************************************************************************
+Theme Styles
+*******************************************************************************/
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+
+
+
 body {
-    background-color: white;
-    font-family: "Arial";
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #DDDDDD;
+  margin: 0;
+}
+
+.primary-header {
+  text-align: center;
+  background: green;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 h1 {
-    color: lightblack;
-    text-align: center;
+  float: left;
+  font-size: 60px;
+  font-weight: 700;
+  padding-left: 10%;
+  line-height: 0.9em;
+  text-align: left;
+  color: white;
 }
 
-p {
-    font-size: 20px;
+h2 {
+  padding-top: 80px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #DDDDDD;
 }
 
-ul.a {
-    list-style-type: circle;
-}
-
-img.center {
-    display: block;
-    margin: 0 auto;
-    background-color: green;
-    padding-right: 50%;
-    padding-left: 40%;
+.toolbar {
+  padding: 20px;
 }
