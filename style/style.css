@@ -43,6 +43,21 @@ Theme Styles
 
 /*
   ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/*
+  ========================================
   Clearfix
   ========================================
 */
@@ -95,5 +110,29 @@ h2 {
 }
 
 .toolbar {
-  padding: 20px;
+  margin-top: 0px;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  font-weight: 900;
+}
+
+.btn {
+  border: 1px solid;
+  padding: 10px;
+
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
 }
