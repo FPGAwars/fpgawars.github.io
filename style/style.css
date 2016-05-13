@@ -141,6 +141,7 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
+  align-self:center;
 }
 
 
@@ -151,6 +152,7 @@ p img {
   vertical-align: middle;
   text-align: center;
   border: none;
+  align-self: center;
 }
 
 pre, code {
@@ -395,4 +397,18 @@ a:hover {
   max-width: 640px;
   margin: 0 auto;
   border: none;
+}
+
+.important {
+  font-style:italic;
+  font-size: 21px;
+  color: #000000;
+  padding: 20px;
+  background: #d2fdd5;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+p {
+  color: #444444;
 }
