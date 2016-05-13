@@ -153,6 +153,8 @@ p img {
   text-align: center;
   border: none;
   align-self: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 pre, code {
@@ -407,6 +409,14 @@ a:hover {
   background: #d2fdd5;
   border-radius: 10px;
   margin-bottom: 50px;
+}
+
+.information {
+  border: 1px solid;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #EEEEEE;
+  border-radius: 10px;
 }
 
 p {
