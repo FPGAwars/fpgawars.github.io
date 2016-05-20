@@ -155,16 +155,46 @@
 <img src="images/fpga-config8.png" width=600px alt="" />
 
 <p>
-  El <strong>bitstream</strong> se transmite por un <strong>bus serie</strong> (spi), bit a bit, y se van
-  y se almacena en los bits de configuración, estableciéndose las conexiones
-  de la FPGA
+  El <strong>bitstream</strong> se transmite por un <strong>bus serie</strong>
+  (spi), bit a bit, configurándose las conexiones de la FPGA
 </p>
 
 <img src="images/fpga-config9-anim.gif" width=600px alt="" />
 
+<h3>Memoria de configuración</h3>
+
+
+<p>
+  Las FPGA son <strong>volátiles</strong>: al quitar la alimentacion pierden su configuración.
+  Al alimentarlas de nuevo, están en blanco y se quedan esperando a recibir un
+  <em>bitstream</em> para reconfigurarse
+</p>
   <!-- Concepto de memoria de configuración-->
 
+  <p>
+    Por eso, junto a la FPGA se sitúa una <strong>memoria serie externa</strong>,
+  no volátil,
+   llamada <strong>memoria de configuración</strong>, que almacena
+    el bitstream. Así, al alimentar la FPGA lo primero que hace es
+    reconfigurarse con el bitstream de la memoria de configuración
+  </p>
+
+  <img src="images/fpga-mem-config-1.png" width=600px alt="" />
+
+  <p>
+    El bitstream <strong>se graba en la memoria de configuración</strong>
+    desde un dispositivo
+    externo: ordenador, arduino, raspberry pi, ubuntu phone, etc.
+  </p>
+
+<h3>Diseñando circuitos digitales</h3>
+
+<p>
+  TODO
+</p>
+
 </section>
+
 
 <!-- FOOTER  -->
 
