@@ -205,12 +205,69 @@
 </p>
 
 <p>
-  Desde una <strong>descripción en HDL</strong> puedes
+  Desde una <strong>descripción en HDL</strong> podemos
   <strong>simular</strong> el circuito, <strong>generar el bitstream</strong>
-  para FPGAs o <strong>fabricar</strong> el chip (ASIC)
+  para FPGAs o <strong>fabricar</strong> el circuito integrado
 </p>
 
 <img src="images/fpga-hdl-1.png" width=600px alt="" />
+
+<p>
+  En las FPGAs, obtenemos <strong>circuitos reales</strong> a partir de ficheros de texto
+  escritos en un lenguaje HDL. Los circuitos "se materializan" a partir del
+  código HDL. A este proceso lo denominamos <strong>síntesis</strong>
+</p>
+
+<img src="images/fpga-synthesis-1.png" width=600px alt="" />
+
+<p>
+  Esto es un salto importantísimo. ¡Podemos diseñar hardware real
+  escribiendo "líneas de código"! ¡Podemos usar las mismas herramientas
+  software para diseñar hardware!: repositorios, editores, bibliotecas de
+  hardware...
+</p>
+
+<p class="important">
+  ¡En las FPGAs, el hardware es ahora "software"! ¡Hemos convertido el hardware en software!
+</p>
+
+<h3>FPGAs: ¡Sólo personal autorizado!</h3>
+
+<p>
+  Las FPGAs se inventaron hace <strong>más de 30 años</strong>, por la empresas Xilinx.
+  Sin embargo, es una tecnología que <strong>NO se ha popularizado</strong>
+  entre los makers y la comunidad de hardware libre en general.
+</p>
+
+<p>
+  Se trata de una <strong>tecnología muy cerrada</strong>, rodeada de
+  <strong>software privativo</strong>, en la
+  que sólo puedes usar lo que el fabricante te diga en las condiciones que te
+  diga. No hay lugar para la innovación. No hay lugar para la comunidad.
+  <strong>No están publicados</strong> los detalles internos de la FPGA,
+  ni del formato de los bitstreams
+</p>
+
+<img src="images/fpga-privative-1.png" width=600px alt="" />
+
+<p class="imporTant">
+  Las FPGAs son una tecnología muy cerrada, donde hay muy pocos fabricantes
+  y todo el software es privativo. Nadie conoce el formato de los bitstreams
+</p>
+
+<h3>FPGAs libres: El renacimiento</h3>
+
+
+  <p>
+    Sin embargo, Clifford Wolf, hizo ingeniería inversa de las FPGAs iCE40 de
+    Lattice y en Mayo del 2015 creó el proyecto icestorm, junto a una toolchain
+    libre de herramientas que permiten pasar de Verilog al bitstream usando
+    Śolo Herramientas libres
+  </p>
+
+
+
+
 
 </section>
 
