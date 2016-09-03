@@ -84,13 +84,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @gray-darker;
     border-color: transparent;
     .navbar-brand {
-        color: @theme-primary;
+        color: white;
         .body-font;
         &:hover,
         &:focus,
         &:active,
         &.active {
-            color: darken(@theme-primary, 10%);
+            color: white;
         }
     }
     .navbar-collapse {
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
                 color: white;
                 &:hover,
                 &:focus {
-                    color: @theme-primary;
+                    color: white;
                     outline: none;
                 }
             }
@@ -125,12 +125,12 @@ h1, h2, h3, h4, h5, h6 {
     .navbar-nav>.active>a {
         border-radius: 0;
         color: white;
-        background-color: @theme-primary;
+        background-color: darken(@theme-primary, 5%);
     }
     .navbar-nav>.active>a:hover,
     .navbar-nav>.active>a:focus {
         color: white;
-        background-color: darken(@theme-primary, 10%);
+        background-color: darken(@theme-primary, 5%);
     }
 }
 
@@ -177,18 +177,18 @@ header {
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
-        .intro-lead-in {
+        .intro-phrase {
             .serif-font;
             font-style: italic;
             font-size: 22px;
             line-height: 22px;
             margin-bottom: 25px;
         }
-        .intro-heading {
-            .heading-font;
-            font-weight: 700;
-            font-size: 50px;
-            line-height: 50px;
+        .intro-tag {
+            .body-font;
+            color: #77c7f7;
+            font-size: 18px;
+            line-height: 18px;
             margin-bottom: 25px;
         }
     }
@@ -199,19 +199,19 @@ header {
         .intro-text {
             padding-top: 300px;
             padding-bottom: 200px;
-            .intro-lead-in {
+            .intro-phrase {
                 .serif-font;
                 font-style: italic;
                 font-size: 40px;
                 line-height: 40px;
                 margin-bottom: 25px;
             }
-            .intro-heading {
-                .heading-font;
-                font-weight: 700;
-                font-size: 75px;
-                line-height: 75px;
-                margin-bottom: 50px;
+            .intro-tag {
+                .body-font;
+                color: #77c7f7;
+                font-size: 33px;
+                line-height: 33px;
+                margin-bottom: 45px;
             }
         }
     }
@@ -676,13 +676,9 @@ ul.social-buttons {
 // Highlight Color Customization
 
 ::-moz-selection {
-    text-shadow: none;
-    background: @theme-primary;
 }
 
 ::selection {
-    text-shadow: none;
-    background: @theme-primary;
 }
 
 img::selection {

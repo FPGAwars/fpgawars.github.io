@@ -11,7 +11,7 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #379c20;
+  color: #058505;
 }
 p {
   font-size: 14px;
@@ -28,13 +28,13 @@ a.active {
   outline: none;
 }
 a {
-  color: #379c20;
+  color: #058505;
 }
 a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #287217;
+  color: #035403;
 }
 h1,
 h2,
@@ -57,8 +57,8 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #379c20;
-  border-color: #379c20;
+  background-color: #058505;
+  border-color: #058505;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -69,8 +69,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #287217;
-  border-color: #256916;
+  background-color: #035403;
+  border-color: #034a03;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -92,17 +92,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #379c20;
-  border-color: #379c20;
+  background-color: #058505;
+  border-color: #058505;
 }
 .btn-primary .badge {
-  color: #379c20;
+  color: #058505;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #379c20;
-  border-color: #379c20;
+  background-color: #058505;
+  border-color: #058505;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -116,8 +116,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #287217;
-  border-color: #256916;
+  background-color: #035403;
+  border-color: #034a03;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -139,11 +139,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #379c20;
-  border-color: #379c20;
+  background-color: #058505;
+  border-color: #058505;
 }
 .btn-xl .badge {
-  color: #379c20;
+  color: #058505;
   background-color: white;
 }
 .navbar-custom {
@@ -151,21 +151,21 @@ fieldset[disabled] .btn-xl.active {
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: #379c20;
+  color: white;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #287217;
+  color: white;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #379c20;
-  border-color: #379c20;
+  background-color: #058505;
+  border-color: #058505;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -173,7 +173,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #379c20;
+  background-color: #058505;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -184,18 +184,18 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #379c20;
+  color: white;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #379c20;
+  background-color: #046c04;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #287217;
+  background-color: #046c04;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -241,19 +241,18 @@ header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-header .intro-text .intro-lead-in {
+header .intro-text .intro-phrase {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
-header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
+header .intro-text .intro-tag {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #77c7f7;
+  font-size: 18px;
+  line-height: 18px;
   margin-bottom: 25px;
 }
 @media (min-width: 768px) {
@@ -261,20 +260,19 @@ header .intro-text .intro-heading {
     padding-top: 300px;
     padding-bottom: 200px;
   }
-  header .intro-text .intro-lead-in {
+  header .intro-text .intro-phrase {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
   }
-  header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
+  header .intro-text .intro-tag {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #77c7f7;
+    font-size: 33px;
+    line-height: 33px;
+    margin-bottom: 45px;
   }
 }
 section {
@@ -313,7 +311,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(55, 156, 32, 0.9);
+  background: rgba(5, 133, 5, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -421,7 +419,7 @@ section h3.section-subheading {
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #379c20;
+  background-color: #058505;
   color: white;
   border-radius: 100%;
   border: 7px solid #f1f1f1;
@@ -602,7 +600,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #379c20;
+  background-color: #058505;
 }
 .btn:focus,
 .btn:active,
@@ -684,14 +682,6 @@ ul.social-buttons li a:active {
   opacity: 0;
   display: none;
 }
-::-moz-selection {
-  text-shadow: none;
-  background: #379c20;
-}
-::selection {
-  text-shadow: none;
-  background: #379c20;
-}
 img::selection {
   background: transparent;
 }
@@ -699,5 +689,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #379c20;
+  webkit-tap-highlight-color: #058505;
 }
