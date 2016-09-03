@@ -589,10 +589,22 @@ section#contact {
 footer {
     padding: 25px 0;
     text-align: center;
-    span.copyright {
+    span.copyleft {
         line-height: 40px;
         .heading-font;
         text-transform: none;
+    }
+    span.invert {
+      display: inline-block;
+      text-align: right;
+      margin: 0;
+      font-size: 1em;
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: FlipH;
     }
     ul.quicklinks {
         margin-bottom: 0;

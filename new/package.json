@@ -1,13 +1,10 @@
 {
-  "name": "agency",
-  "title": "Agency",
-  "version": "3.3.7+1",
-  "homepage": "http://startbootstrap.com/template-overviews/agency",
-  "author": "Start Bootstrap",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
-  },
+  "name": "FPGAwars",
+  "title": "FPGAwars",
+  "version": "0.0.1-dev",
+  "homepage": "http://fpgawars.github.io/",
+  "author": "FPGAwars",
+  "license": "GPL-2.0",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
@@ -23,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+    "url": "https://github.com/FPGAwars/fpgawars.github.io"
   }
 }
