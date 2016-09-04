@@ -53,6 +53,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+.bg-light-white {
+    background-color: white;
+}
+
 .bg-light-gray {
     background-color: @gray-lighter;
 }
@@ -251,7 +255,7 @@ section {
 
 // Portfolio Section
 
-#portfolio {
+.portfolio {
     .portfolio-item {
         margin: 0 0 15px;
         right: 0;
@@ -261,14 +265,14 @@ section {
             max-width: 400px;
             margin: 0 auto;
             .portfolio-hover {
-                background: fade(@theme-primary, 90%);
+                background: fade(white, 50%);
                 position: absolute;
                 width: 100%;
                 height: 100%;
                 opacity: 0;
-                transition: all ease 0.5s;
-                -webkit-transition: all ease 0.5s;
-                -moz-transition: all ease 0.5s;
+                transition: all ease 0.3s;
+                -webkit-transition: all ease 0.3s;
+                -moz-transition: all ease 0.3s;
                 &:hover {
                     opacity: 1;
                 }
@@ -294,18 +298,33 @@ section {
         .portfolio-caption {
             max-width: 400px;
             margin: 0 auto;
-            background-color: white;
             text-align: center;
             padding: 25px;
             h4 {
-                text-transform: none;
-                margin: 0;
+                float: left;
+                margin-left: 16px;
+            }
+            i {
+                float: right;
+                margin-right: 16px;
+            }
+            a {
+                color: @gray-darker;
+                outline: none;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                transition: all 0.3s;
+                &:hover,
+                &:focus,
+                &:active {
+                    color: @theme-primary;
+                }
             }
             p {
                 .serif-font;
                 font-style: italic;
                 font-size: 16px;
-                margin: 0;
+                margin-top: 10px;
             }
         }
     }
@@ -315,7 +334,7 @@ section {
 }
 
 @media(min-width:767px) {
-    #portfolio {
+    .portfolio {
         .portfolio-item {
             margin: 0 0 30px;
         }
@@ -630,6 +649,8 @@ ul.social-buttons {
         }
         img {
             margin-bottom: 30px;
+            max-width: 720px;
+            max-height: 660px;
         }
     }
     .close-modal {
