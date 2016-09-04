@@ -86,10 +86,8 @@ h1, h2, h3, h4, h5, h6 {
         color: white;
         .body-font;
         &:hover,
-        &:focus,
-        &:active,
-        &.active {
-            color: white;
+        &:focus {
+          color: white;
         }
     }
     .navbar-collapse {
@@ -117,6 +115,9 @@ h1, h2, h3, h4, h5, h6 {
                 &:focus {
                     color: white;
                     outline: none;
+                }
+                &:hover {
+                    color: lighten(@theme-primary, 50%);
                 }
             }
         }
@@ -166,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/header-bg.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -220,7 +221,7 @@ header {
     header {
         .intro-text {
             padding-top: 380px;
-            padding-bottom: 320px;
+            padding-bottom: 380px;
             .intro-phrase {
                 .serif-font;
                 font-style: italic;

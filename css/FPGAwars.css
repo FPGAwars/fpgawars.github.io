@@ -11,7 +11,7 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #058505;
+  color: #008000;
 }
 p {
   font-size: 14px;
@@ -30,7 +30,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #058505;
+  color: #008000;
   text-decoration: none;
 }
 h1,
@@ -57,8 +57,8 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #058505;
-  border-color: #058505;
+  background-color: #008000;
+  border-color: #008000;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -69,8 +69,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #035403;
-  border-color: #034a03;
+  background-color: #004d00;
+  border-color: #004300;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -92,17 +92,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #058505;
-  border-color: #058505;
+  background-color: #008000;
+  border-color: #008000;
 }
 .btn-primary .badge {
-  color: #058505;
+  color: #008000;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #058505;
-  border-color: #058505;
+  background-color: #008000;
+  border-color: #008000;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -116,8 +116,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #035403;
-  border-color: #034a03;
+  background-color: #004d00;
+  border-color: #004300;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -139,11 +139,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #058505;
-  border-color: #058505;
+  background-color: #008000;
+  border-color: #008000;
 }
 .btn-xl .badge {
-  color: #058505;
+  color: #008000;
   background-color: white;
 }
 .navbar-custom {
@@ -155,17 +155,15 @@ fieldset[disabled] .btn-xl.active {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand:active,
-.navbar-custom .navbar-brand.active {
+.navbar-custom .navbar-brand:focus {
   color: white;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #058505;
-  border-color: #058505;
+  background-color: #008000;
+  border-color: #008000;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -173,7 +171,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #058505;
+  background-color: #008000;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -187,15 +185,18 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   outline: none;
 }
+.navbar-custom .nav li a:hover {
+  color: #80ff80;
+}
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #058505;
+  background-color: #008000;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #058505;
+  background-color: #008000;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -226,7 +227,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/header-bg.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -278,7 +279,7 @@ header .intro-text .intro-tag {
 @media (min-width: 1600px) {
   header .intro-text {
     padding-top: 380px;
-    padding-bottom: 320px;
+    padding-bottom: 380px;
   }
   header .intro-text .intro-phrase {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -456,7 +457,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #058505;
+  background-color: #008000;
 }
 .btn:focus,
 .btn:active,
@@ -547,5 +548,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #058505;
+  webkit-tap-highlight-color: #008000;
 }
