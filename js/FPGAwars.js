@@ -35,32 +35,36 @@
     var langs = ['en', 'es'];
 
     $("#lang-en").click(function(event) {
-        setLanguage('en');
-        $('html, body').stop().animate({
-            scrollTop: 0
-        }, 1000, 'easeInOutExpo');
+        if (lang != 'en') {
+            lang = 'en';
+            setLanguage(lang);
+        }
     });
 
     $("#lang-es").click(function(event) {
-        setLanguage('es');
-        $('html, body').stop().animate({
-            scrollTop: 0
-        }, 1000, 'easeInOutExpo');
+        if (lang != 'es') {
+            lang = 'es';
+            setLanguage(lang);
+        }
     });
 
     function setLanguage(lang) {
 
-      var translate = function(jsdata) {
-        $("[tkey]").each(function (index) {
-            var strTr = jsdata [$(this).attr('tkey')];
-            $(this).html(strTr);
-        });
-      };
+        var translate = function(jsdata) {
+          $("[tkey]").each(function (index) {
+              var strTr = jsdata [$(this).attr('tkey')];
+              $(this).html(strTr);
+          });
+        };
 
-      if (langs.indexOf(lang) != -1)
-        $.getJSON('locale/'+lang+'.json', translate);
-      else
-        $.getJSON('locale/en.json', translate);
+        if (langs.indexOf(lang) != -1)
+            $.getJSON('locale/'+lang+'.json', translate);
+        else
+            $.getJSON('locale/en.json', translate);
+
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 1000, 'easeInOutExpo');
     };
 
     // Set default language

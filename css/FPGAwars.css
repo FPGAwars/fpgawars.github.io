@@ -11,7 +11,7 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #008000;
+  color: #007500;
 }
 p {
   font-size: 14px;
@@ -30,7 +30,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #008000;
+  color: #007500;
   text-decoration: none;
 }
 h1,
@@ -57,8 +57,8 @@ h6 {
 }
 .btn-primary {
   color: white;
-  background-color: #008000;
-  border-color: #008000;
+  background-color: #007500;
+  border-color: #007500;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -69,8 +69,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #004d00;
-  border-color: #004300;
+  background-color: #004200;
+  border-color: #003800;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -92,17 +92,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #008000;
-  border-color: #008000;
+  background-color: #007500;
+  border-color: #007500;
 }
 .btn-primary .badge {
-  color: #008000;
+  color: #007500;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #008000;
-  border-color: #008000;
+  background-color: #007500;
+  border-color: #007500;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -116,8 +116,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #004d00;
-  border-color: #004300;
+  background-color: #004200;
+  border-color: #003800;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -139,11 +139,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #008000;
-  border-color: #008000;
+  background-color: #007500;
+  border-color: #007500;
 }
 .btn-xl .badge {
-  color: #008000;
+  color: #007500;
   background-color: white;
 }
 .navbar-custom {
@@ -162,8 +162,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #008000;
-  border-color: #008000;
+  background-color: #007500;
+  border-color: #007500;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -171,7 +171,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #008000;
+  background-color: #007500;
 }
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -186,17 +186,17 @@ fieldset[disabled] .btn-xl.active {
   outline: none;
 }
 .navbar-custom .nav li a:hover {
-  color: #80ff80;
+  color: #75ff75;
 }
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #008000;
+  background-color: #007500;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #008000;
+  background-color: #007500;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -457,7 +457,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #008000;
+  background-color: #007500;
 }
 .btn:focus,
 .btn:active,
@@ -548,5 +548,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #008000;
+  webkit-tap-highlight-color: #007500;
 }
