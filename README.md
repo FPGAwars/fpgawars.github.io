@@ -2,7 +2,7 @@
 
 [![License](http://img.shields.io/:license-gpl-blue.svg)](http://opensource.org/licenses/GPL-2.0)
 
-Based on [Start Bootstrap Agency template](http://startbootstrap.com/template-overviews/agency/).
+Based on [Start Bootstrap Agency template](https://github.com/BlackrockDigital/startbootstrap-agency).
 
 
 ## Development

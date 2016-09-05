@@ -4,7 +4,7 @@
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('a.page-scroll').bind('click', function(event) {
+    $('a.page-scroll').click(function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top)
@@ -20,7 +20,7 @@
 
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function(){
-            $('.navbar-toggle:visible').click();
+        $('.navbar-toggle:visible').click();
     });
 
     // Offset for Main Navigation
@@ -29,5 +29,41 @@
             top: 50
         }
     })
+
+    // Language settings
+    var lang = navigator.language.substr (0, 2);
+    var langs = ['en', 'es'];
+
+    $("#lang-en").click(function(event) {
+        setLanguage('en');
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 1000, 'easeInOutExpo');
+    });
+
+    $("#lang-es").click(function(event) {
+        setLanguage('es');
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 1000, 'easeInOutExpo');
+    });
+
+    function setLanguage(lang) {
+
+      var translate = function(jsdata) {
+        $("[tkey]").each(function (index) {
+            var strTr = jsdata [$(this).attr('tkey')];
+            $(this).html(strTr);
+        });
+      };
+
+      if (langs.indexOf(lang) != -1)
+        $.getJSON('locale/'+lang+'.json', translate);
+      else
+        $.getJSON('locale/en.json', translate);
+    };
+
+    // Set default language
+    setLanguage(lang);
 
 })(jQuery); // End of use strict
