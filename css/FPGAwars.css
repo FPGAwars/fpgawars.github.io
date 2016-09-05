@@ -14,7 +14,7 @@ body {
   color: #007500;
 }
 p {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.75;
 }
 p.large {
@@ -305,7 +305,7 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 section h3.section-subheading {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
@@ -378,7 +378,7 @@ section h3.section-subheading {
 .portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
 }
 .portfolio * {

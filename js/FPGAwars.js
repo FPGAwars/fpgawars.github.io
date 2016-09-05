@@ -39,6 +39,9 @@
             lang = 'en';
             setLanguage(lang);
         }
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 1000, 'easeInOutExpo');
     });
 
     $("#lang-es").click(function(event) {
@@ -46,6 +49,9 @@
             lang = 'es';
             setLanguage(lang);
         }
+        $('html, body').stop().animate({
+            scrollTop: 0
+        }, 1000, 'easeInOutExpo');
     });
 
     function setLanguage(lang) {
@@ -61,10 +67,6 @@
             $.getJSON('locale/'+lang+'.json', translate);
         else
             $.getJSON('locale/en.json', translate);
-
-        $('html, body').stop().animate({
-            scrollTop: 0
-        }, 1000, 'easeInOutExpo');
     };
 
     // Set default language
