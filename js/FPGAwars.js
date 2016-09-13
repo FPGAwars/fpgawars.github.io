@@ -38,20 +38,20 @@
         if (lang != 'en') {
             lang = 'en';
             setLanguage(lang);
+            $('html, body').stop().animate({
+              scrollTop: 0
+            }, 1000, 'easeInOutExpo');
         }
-        $('html, body').stop().animate({
-            scrollTop: 0
-        }, 1000, 'easeInOutExpo');
     });
 
     $("#lang-es").click(function(event) {
         if (lang != 'es') {
             lang = 'es';
             setLanguage(lang);
+            $('html, body').stop().animate({
+              scrollTop: 0
+            }, 1000, 'easeInOutExpo');
         }
-        $('html, body').stop().animate({
-            scrollTop: 0
-        }, 1000, 'easeInOutExpo');
     });
 
     function setLanguage(lang) {
