@@ -15,6 +15,7 @@
   "apio_ide_desc": "IDE de desarrollo para FPGAs libres",
   "simplez_desc": "CPU educativa en Verilog",
   "acc_desc": "Apollo CPU en Verilog",
+  "pio_lattice_ice40_desc": "Soporte en PlatformIO para FPGAs libres",
   "tutorials": "Tutoriales",
   "tutorials_desc": "Aprende sobre FPGAs con nuestros tutoriales",
   "introduction": "Introducción",
