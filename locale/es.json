@@ -15,7 +15,7 @@
   "apio_ide_desc": "IDE de desarrollo para FPGAs libres",
   "simplez_desc": "CPU educativa en Verilog",
   "acc_desc": "Apollo CPU en Verilog",
-  "Al_led_desc": "Periférico Hola Mundo con un led para la Icezum Alhambra",
+  "Al_led_desc": "Periférico LED para la Icezum Alhambra",
   "pio_lattice_ice40_desc": "Soporte en PlatformIO para FPGAs libres",
   "tutorials": "Tutoriales",
   "tutorials_desc": "Aprende sobre FPGAs con nuestros tutoriales",
