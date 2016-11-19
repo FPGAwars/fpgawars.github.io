@@ -14,3 +14,7 @@ To use the source files, you will need to have npm installed globally along with
 If you need to update the plugins included with this template, simply run the following tasks:
 * First run `npm update` to update the dependencies
 * Then run `gulp copy` to copy the new versions to their proper destinations
+
+Project and Tutorials images: 600x510 px
+
+Workshops and Talks images: scale to 550, add canvas 500x510 px
