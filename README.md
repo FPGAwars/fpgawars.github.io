@@ -17,4 +17,4 @@ If you need to update the plugins included with this template, simply run the fo
 
 Project and Tutorials images: 600x510 px
 
-Workshops and Talks images: scale to 550, add canvas 500x510 px
+Workshops and Talks images: scale to 550, add canvas 600x510 px
