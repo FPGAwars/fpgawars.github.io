@@ -1,8 +1,8 @@
 [
   {
     "id": "projects",
-    "bg-white": false,
-    "content": [
+    "bgwhite": false,
+    "items": [
       {
         "id": "icezum",
         "repo": "https://github.com/fpgawars/icezum",
@@ -10,21 +10,21 @@
       },
       {
         "id": "icestudio",
+        "link": "repo",
         "repo": "https://github.com/fpgawars/icestudio",
-        "docs": "http://icestudio.readthedocs.io",
-        "main": "repo"
+        "docs": "http://icestudio.readthedocs.io"
       },
       {
         "id": "apio",
+        "link": "repo",
         "repo": "https://github.com/fpgawars/apio",
-        "docs": "http://apiodoc.readthedocs.io",
-        "main": "repo"
+        "docs": "http://apiodoc.readthedocs.io"
       },
       {
         "id": "apio-ide",
+        "link": "repo",
         "repo": "https://github.com/fpgawars/apio-ide",
-        "docs": "https://github.com/FPGAwars/apio-ide/wiki",
-        "main": "repo"
+        "docs": "https://github.com/FPGAwars/apio-ide/wiki"
       },
       {
         "id": "simplez",
@@ -32,15 +32,16 @@
         "docs": "https://github.com/Obijuan/simplez-fpga/wiki/Procesador-SIMPLEZ-F"
       },
       {
-        "id": "apollo",
+        "id": "acc",
         "repo": "https://github.com/Obijuan/ACC",
         "docs": "https://github.com/Obijuan/ACC/wiki"
       },
       {
         "id": "pio-ice40",
+        "main": "repo",
+        "fontsize": "15px",
         "repo": "https://github.com/platformio/platform-lattice_ice40",
-        "docs": "https://github.com/platformio/platform-lattice_ice40/wiki",
-        "main": "repo"
+        "docs": "https://github.com/platformio/platform-lattice_ice40/wiki"
       },
       {
         "id": "a-led",
@@ -51,8 +52,8 @@
   },
   {
     "id": "tutorials",
-    "bg-white": true,
-    "content": [
+    "bgwhite": true,
+    "items": [
       {
         "id": "introduction",
         "repo": "https://github.com/FPGAwars/fpgawars.github.io",
@@ -60,7 +61,7 @@
       },
       {
         "id": "verilog_tutorial",
-        "font-size": "15px",
+        "fontsize": "15px",
         "repo": "https://github.com/Obijuan/open-fpga-verilog-tutorial",
         "docs": "https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki"
       }
@@ -68,8 +69,8 @@
   },
   {
     "id": "workshops",
-    "bg-white": false,
-    "content": [
+    "bgwhite": false,
+    "items": [
       {
         "id": "workshop_0",
         "repo": "https://github.com/FPGAwars/workshops/tree/master/2016-10-28-Reset-ETSII-UPM",
@@ -89,8 +90,8 @@
   },
   {
     "id": "talks",
-    "bg-white": true,
-    "content": [
+    "bgwhite": true,
+    "items": [
       {
         "id": "talk_0",
         "repo": "https://github.com/Obijuan/myslides/tree/master/2016-09-23-Granada-geek",
