@@ -39,8 +39,18 @@
           var bg = category.bgwhite ? 'bg-light-gray': 'bg-light-white';
           for (var i in category.items) {
               var item = category.items[i];
-              var link = item.link ? item[item.link] : item.docs;
+              var link = item.link ? item.link : item.docs;
               var fontsize = item.fontsize ? ' style="font-size:' + item.fontsize + ';"' : '';
+              var docs = item.docs ? '\
+                  <a href="' + item.docs + '">\
+                      <i class="fa fa-book fa-2x"></i>\
+                  </a>\
+              ' : '';
+              var repo = item.repo ? '\
+                  <a href="' + item.repo + '">\
+                      <i class="fa fa-github fa-2x"></i>\
+                  </a>\
+              ' : '';
               content.append(
               '<div id="' + item.id + '" class="col-md-4 col-sm-6 portfolio-item">\
                   <a href="' + link + '" class="portfolio-link ' + bg + '" data-toggle="modal">\
@@ -50,12 +60,8 @@
                   <div class="portfolio-caption ' + bg + '">\
                       <div class="row">\
                           <h4 tkey="' + item.id + '"' + fontsize + '></h4>\
-                          <a href="' + item.docs + '">\
-                             <i class="fa fa-book fa-2x"></i>\
-                          </a>\
-                          <a href="' + item.repo + '">\
-                             <i class="fa fa-github fa-2x"></i>\
-                          </a>\
+                          ' + docs + '\
+                          ' + repo + '\
                       </div>\
                       <div class="row">\
                           <p class="text-muted" tkey="' + item.id + '_desc"></p>\

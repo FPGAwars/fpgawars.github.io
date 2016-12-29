@@ -10,19 +10,19 @@
       },
       {
         "id": "icestudio",
-        "link": "repo",
+        "link": "https://github.com/fpgawars/icestudio",
         "repo": "https://github.com/fpgawars/icestudio",
         "docs": "http://icestudio.readthedocs.io"
       },
       {
         "id": "apio",
-        "link": "repo",
+        "link": "https://github.com/fpgawars/apio",
         "repo": "https://github.com/fpgawars/apio",
         "docs": "http://apiodoc.readthedocs.io"
       },
       {
         "id": "apio-ide",
-        "link": "repo",
+        "link": "https://github.com/fpgawars/apio-ide",
         "repo": "https://github.com/fpgawars/apio-ide",
         "docs": "https://github.com/FPGAwars/apio-ide/wiki"
       },
@@ -38,8 +38,8 @@
       },
       {
         "id": "pio-ice40",
-        "main": "repo",
         "fontsize": "15px",
+        "main": "https://github.com/platformio/platform-lattice_ice40",
         "repo": "https://github.com/platformio/platform-lattice_ice40",
         "docs": "https://github.com/platformio/platform-lattice_ice40/wiki"
       },
@@ -85,6 +85,10 @@
         "id": "workshop_2",
         "repo": "https://github.com/FPGAwars/workshops/tree/master/2016-12-10-OurenseMakersLab",
         "docs": "https://github.com/FPGAwars/workshops/wiki/2016_12_10:-Ourense-MakersLab"
+      },
+      {
+        "id": "next_workshop",
+        "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
     ]
   },
@@ -126,6 +130,10 @@
         "id": "talk_6",
         "repo": "https://github.com/Obijuan/myslides/tree/master/2016-12-10-Ourense-Makerslab-FPGAs-Libres",
         "docs": "https://github.com/Obijuan/myslides/wiki/2016_12_10:-Ourense-Makerslab,-FPGAs-Libres"
+      },
+      {
+        "id": "next_talk",
+        "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
     ]
   }
