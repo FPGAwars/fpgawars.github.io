@@ -1,0 +1,131 @@
+[
+  {
+    "id": "projects",
+    "bg-white": false,
+    "content": [
+      {
+        "id": "icezum",
+        "repo": "https://github.com/fpgawars/icezum",
+        "docs": "https://github.com/fpgawars/icezum/wiki"
+      },
+      {
+        "id": "icestudio",
+        "repo": "https://github.com/fpgawars/icestudio",
+        "docs": "http://icestudio.readthedocs.io",
+        "main": "repo"
+      },
+      {
+        "id": "apio",
+        "repo": "https://github.com/fpgawars/apio",
+        "docs": "http://apiodoc.readthedocs.io",
+        "main": "repo"
+      },
+      {
+        "id": "apio-ide",
+        "repo": "https://github.com/fpgawars/apio-ide",
+        "docs": "https://github.com/FPGAwars/apio-ide/wiki",
+        "main": "repo"
+      },
+      {
+        "id": "simplez",
+        "repo": "https://github.com/Obijuan/simplez-fpga",
+        "docs": "https://github.com/Obijuan/simplez-fpga/wiki/Procesador-SIMPLEZ-F"
+      },
+      {
+        "id": "apollo",
+        "repo": "https://github.com/Obijuan/ACC",
+        "docs": "https://github.com/Obijuan/ACC/wiki"
+      },
+      {
+        "id": "pio-ice40",
+        "repo": "https://github.com/platformio/platform-lattice_ice40",
+        "docs": "https://github.com/platformio/platform-lattice_ice40/wiki",
+        "main": "repo"
+      },
+      {
+        "id": "a-led",
+        "repo": "https://github.com/FPGAwars/alhambra-led",
+        "docs": "https://github.com/FPGAwars/alhambra-led/wiki"
+      }
+    ]
+  },
+  {
+    "id": "tutorials",
+    "bg-white": true,
+    "content": [
+      {
+        "id": "introduction",
+        "repo": "https://github.com/FPGAwars/fpgawars.github.io",
+        "docs": "http://obijuan.github.io/intro-fpga.html"
+      },
+      {
+        "id": "verilog_tutorial",
+        "font-size": "15px",
+        "repo": "https://github.com/Obijuan/open-fpga-verilog-tutorial",
+        "docs": "https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki"
+      }
+    ]
+  },
+  {
+    "id": "workshops",
+    "bg-white": false,
+    "content": [
+      {
+        "id": "workshop_0",
+        "repo": "https://github.com/FPGAwars/workshops/tree/master/2016-10-28-Reset-ETSII-UPM",
+        "docs": "https://github.com/FPGAwars/workshops/wiki/2016_10_28:-Reset-ETSII-UPM"
+      },
+      {
+        "id": "workshop_1",
+        "repo": "https://github.com/FPGAwars/workshops/tree/master/2016-11-05-OSHWDem16",
+        "docs": "https://github.com/FPGAwars/workshops/wiki/2016_11_05:-OSHWDem16-A-Coru%C3%B1a"
+      },
+      {
+        "id": "workshop_2",
+        "repo": "https://github.com/FPGAwars/workshops/tree/master/2016-12-10-OurenseMakersLab",
+        "docs": "https://github.com/FPGAwars/workshops/wiki/2016_12_10:-Ourense-MakersLab"
+      }
+    ]
+  },
+  {
+    "id": "talks",
+    "bg-white": true,
+    "content": [
+      {
+        "id": "talk_0",
+        "repo": "https://github.com/Obijuan/myslides/tree/master/2016-09-23-Granada-geek",
+        "docs": "https://github.com/Obijuan/myslides/wiki/2016_09_23-Granada-Geek-FPGAs-Libres"
+      },
+      {
+        "id": "talk_1",
+        "repo": "https://github.com/Obijuan/myslides/tree/master/2016-09-24-Mini-maker-faire-madrid",
+        "docs": "https://github.com/Obijuan/myslides/wiki/2016_09_24-Madrid-Maker-faire:FPGAwars-explorando-el-lado-libre"
+      },
+      {
+        "id": "talk_2",
+        "repo": "https://github.com/Obijuan/myslides/tree/master/2016-10-24-EL-EVENTO-uc3m-Madrid",
+        "docs": "https://github.com/Obijuan/myslides/wiki/2016_10_24:-El-Evento-2016,-UC3M.-FPGAs-libres"
+      },
+      {
+        "id": "talk_3",
+        "repo": "https://github.com/Obijuan/myslides/tree/master/2016-11-05-OSHWdem16-fpgas-libres",
+        "docs": "https://github.com/Obijuan/myslides/wiki/2016_11_05:-OSHWdem-2016,-Coru%C3%B1a.-FPGAs-libres"
+      },
+      {
+        "id": "talk_4",
+        "repo": "https://github.com/Obijuan/myslides/tree/master/2016-11-09-URJC-fpgas-libres",
+        "docs": "https://github.com/Obijuan/myslides/wiki/2016_11_09:-URJC,-Fuenlabrada,-Madrid,-FPGAs-Libres"
+      },
+      {
+        "id": "talk_5",
+        "repo": "https://github.com/Obijuan/myslides/tree/master/2016-11-18-Maker-faire-Bilbao-FPGAs-libres",
+        "docs": "https://github.com/Obijuan/myslides/wiki/2016_11_18:-Maker-faire-Bilbao,-FPGAs-Libres"
+      },
+      {
+        "id": "talk_6",
+        "repo": "https://github.com/Obijuan/myslides/tree/master/2016-12-10-Ourense-Makerslab-FPGAs-Libres",
+        "docs": "https://github.com/Obijuan/myslides/wiki/2016_12_10:-Ourense-Makerslab,-FPGAs-Libres"
+      }
+    ]
+  }
+]
