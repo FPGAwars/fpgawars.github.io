@@ -60,7 +60,7 @@
         "docs": "http://obijuan.github.io/intro-fpga.html"
       },
       {
-        "id": "verilog_tutorial",
+        "id": "verilog",
         "fontsize": "15px",
         "repo": "https://github.com/Obijuan/open-fpga-verilog-tutorial",
         "docs": "https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki"
@@ -87,7 +87,7 @@
         "docs": "https://github.com/FPGAwars/workshops/wiki/2016_12_10:-Ourense-MakersLab"
       },
       {
-        "id": "next_workshop",
+        "id": "workshop_next",
         "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
     ]
@@ -132,7 +132,7 @@
         "docs": "https://github.com/Obijuan/myslides/wiki/2016_12_10:-Ourense-Makerslab,-FPGAs-Libres"
       },
       {
-        "id": "next_talk",
+        "id": "talk_next",
         "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
     ]
