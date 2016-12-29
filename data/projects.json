@@ -1,0 +1,62 @@
+{
+  "id": "workshops",
+  "bg-white": false,
+  "content": [
+    {
+      "id": "icezum",
+      "name": "IceZUM Alhambra",
+      "img": "img/projects/icezum-alhambra-v1.1-min.jpg",
+      "repo": "https://github.com/fpgawars/icezum",
+      "docs": "https://github.com/fpgawars/icezum/docs"
+    },
+    {
+      "id": "icestudio",
+      "name": "Icestudio",
+      "img": "img/projects/icestudio-min.png",
+      "repo": "https://github.com/fpgawars/icestudio",
+      "docs": "http://icestudio.readthedocs.io"
+    },
+    {
+      "id": "apio",
+      "name": "Apio",
+      "img": "img/projects/apio-min.png",
+      "repo": "https://github.com/fpgawars/apio",
+      "docs": "http://apiodoc.readthedocs.io"
+    },
+    {
+      "id": "apio-ide",
+      "name": "Apio IDE",
+      "img": "img/projects/apio-ide-min.png",
+      "repo": "https://github.com/fpgawars/apio-ide",
+      "docs": "https://github.com/FPGAwars/apio-ide/wiki"
+    },
+    {
+      "id": "simplez",
+      "name": "Simplez",
+      "img": "img/projects/simplez-min.png",
+      "repo": "https://github.com/Obijuan/simplez-fpga",
+      "docs": "https://github.com/Obijuan/simplez-fpga/wiki/Procesador-SIMPLEZ-F"
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo CPU Core",
+      "img": "img/projects/acc-min.png",
+      "repo": "https://github.com/Obijuan/ACC",
+      "docs": "https://github.com/Obijuan/ACC/wiki"
+    },
+    {
+      "id": "pio-ice40",
+      "name": "PlatformIO Lattice iCE40",
+      "img": "img/projects/pio-lattice-ice40-min.png",
+      "repo": "https://github.com/platformio/platform-lattice_ice40",
+      "docs": "https://github.com/platformio/platform-lattice_ice40/wiki"
+    },
+    {
+      "id": "a-led",
+      "name": "Alhambra-Led",
+      "img": "img/projects/alhambra-led-min.png",
+      "repo": "https://github.com/FPGAwars/alhambra-led",
+      "docs": "https://github.com/FPGAwars/alhambra-led/wiki"
+    }
+  ]
+}
