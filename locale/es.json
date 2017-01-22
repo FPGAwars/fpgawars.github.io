@@ -27,6 +27,8 @@
   "a-led_desc": "Periférico LED para la Icezum Alhambra",
   "a-button": "Alhambra Button",
   "a-button_desc": "Botón para la Icezum Alhambra",
+  "a-3Dsupport": "Soporte imprimible",
+  "a-3Dsupport_desc": "Soporte imprimible para Icezum Alhambra",
   "tutorials": "Tutoriales",
   "tutorials_desc": "Aprende sobre FPGAs con nuestros tutoriales",
   "introduction": "Introducción",

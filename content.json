@@ -52,6 +52,11 @@
         "id": "a-button",
         "repo": "https://github.com/PCBPrints/Alhambra-button",
         "docs": "https://github.com/PCBPrints/Alhambra-button/wiki"
+      },
+      {
+        "id": "a-3Dsupport",
+        "repo": "https://github.com/FPGAwars/Icezum-Alhambra-3D-support",
+        "docs": "https://github.com/FPGAwars/Icezum-Alhambra-3D-support/wiki"
       }
     ]
   },
