@@ -25,6 +25,8 @@
   "pio-ice40_desc": "PlatformIO support for open FPGAs",
   "a-led": "Alhambra Led",
   "a-led_desc": "LED peripheral for the Icezum Alhambra",
+  "a-button": "Alhambra Button",
+  "a-led_desc":"Button peripheral for the Icezum Alhambra"
   "tutorials": "Tutorials",
   "tutorials_desc": "Learn about FPGAs with our tutorials",
   "introduction": "Introduction",

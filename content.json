@@ -47,6 +47,11 @@
         "id": "a-led",
         "repo": "https://github.com/FPGAwars/alhambra-led",
         "docs": "https://github.com/FPGAwars/alhambra-led/wiki"
+      },
+      {
+        "id": "a-button",
+        "repo": "https://github.com/PCBPrints/Alhambra-button",
+        "docs": "https://github.com/PCBPrints/Alhambra-button/wiki"
       }
     ]
   },
