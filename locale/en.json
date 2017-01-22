@@ -26,7 +26,7 @@
   "a-led": "Alhambra Led",
   "a-led_desc": "LED peripheral for the Icezum Alhambra",
   "a-button": "Alhambra Button",
-  "a-led_desc":"Button for the Icezum Alhambra",
+  "a-button_desc":"Button for the Icezum Alhambra",
   "a-3Dsupport": "3D printable support",
   "a-3Dsupport_desc": "3D support for the Icezum Alhambra",
   "tutorials": "Tutorials",
