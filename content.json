@@ -142,6 +142,11 @@
         "docs": "https://github.com/Obijuan/myslides/wiki/2016_12_10:-Ourense-Makerslab,-FPGAs-Libres"
       },
       {
+        "id": "talk_7",
+        "repo": "https://github.com/Obijuan/myslides/tree/master/2017-02-09-Electronica-digital-divertida-con-FPGAs-libres-UPM",
+        "docs": "https://github.com/Obijuan/myslides/wiki/2017_0209:-ETSIDI-Electr%C3%B3nica-Digital-Divertida-con-FPGAs-Libres"
+      },
+      {
         "id": "talk_next",
         "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
