@@ -147,6 +147,11 @@
         "docs": "https://github.com/Obijuan/myslides/wiki/2017_0209:-ETSIDI-Electr%C3%B3nica-Digital-Divertida-con-FPGAs-Libres"
       },
       {
+        "id": "talk_8",
+        "repo": "https://github.com/Obijuan/myslides/tree/master/2017-02-24-Dise%C3%B1o-hardware-con-FPGAs-libres-UAL",
+        "docs": "https://github.com/Obijuan/myslides/wiki/2017-02-24:-UAL-Dise%C3%B1o-Hardware-con-FPGAs-libres"
+      },
+      {
         "id": "talk_next",
         "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
