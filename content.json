@@ -97,6 +97,11 @@
         "docs": "https://github.com/FPGAwars/workshops/wiki/2016_12_10:-Ourense-MakersLab"
       },
       {
+        "id": "workshop_3",
+        "repo": "https://github.com/FPGAwars/workshops/tree/master/2017-02-24-IV-jornadas-informatica-UAL",
+        "docs": "https://github.com/FPGAwars/workshops/wiki/2017-02-24:-IV-Jornadas-de-Inform%C3%A1tica-Universidad-de-Almer%C3%ADa"
+      },
+      {
         "id": "workshop_next",
         "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
