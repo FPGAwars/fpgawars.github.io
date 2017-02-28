@@ -157,6 +157,11 @@
         "docs": "https://github.com/Obijuan/myslides/wiki/2017-02-24:-UAL-Dise%C3%B1o-Hardware-con-FPGAs-libres"
       },
       {
+        "id": "talk_9",
+        "repo": "https://github.com/Obijuan/myslides/tree/master/2017-03-04-Electronica-digital-divertica-con-FPGAs-Libres-FABLAB-Valencia",
+        "docs": "https://github.com/Obijuan/myslides/wiki/2017_03_04:-Fablab-Valencia:-Electr%C3%B3nica-digital-divertida-con-FPGAs-libres"
+      },
+      {
         "id": "talk_next",
         "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
