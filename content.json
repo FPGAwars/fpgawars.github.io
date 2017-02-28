@@ -102,6 +102,11 @@
         "docs": "https://github.com/FPGAwars/workshops/wiki/2017-02-24:-IV-Jornadas-de-Inform%C3%A1tica-Universidad-de-Almer%C3%ADa"
       },
       {
+        "id": "workshop_4",
+        "repo": "https://github.com/FPGAwars/workshops/tree/master/2017-03-04-Fablab-Valencia/Taller-Fablab-Valencia",
+        "docs": "https://github.com/FPGAwars/workshops/wiki/2017_03_04:-Fablab-Valencia"
+      },
+      {
         "id": "workshop_next",
         "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
