@@ -39,7 +39,7 @@
       {
         "id": "pio-ice40",
         "fontsize": "15px",
-        "main": "https://github.com/platformio/platform-lattice_ice40",
+        "link": "https://github.com/platformio/platform-lattice_ice40",
         "repo": "https://github.com/platformio/platform-lattice_ice40",
         "docs": "https://github.com/platformio/platform-lattice_ice40/wiki"
       },
