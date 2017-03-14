@@ -107,6 +107,11 @@
         "docs": "https://github.com/FPGAwars/workshops/wiki/2017_03_04:-Fablab-Valencia"
       },
       {
+        "id": "workshop_5",
+        "repo": "https://github.com/FPGAwars/workshops/tree/master/2017-03-14-ETSIDI-hacklab-upm",
+        "docs": "https://github.com/FPGAwars/workshops/wiki/2017_03_14:-Hacklab-UPM.-ETSIDI"
+      },
+      {
         "id": "workshop_next",
         "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
