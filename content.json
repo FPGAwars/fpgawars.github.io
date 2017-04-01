@@ -112,6 +112,11 @@
         "docs": "https://github.com/FPGAwars/workshops/wiki/2017_03_14:-Hacklab-UPM.-ETSIDI"
       },
       {
+        "id": "workshop_6",
+        "repo": "https://github.com/FPGAwars/workshops/tree/master/2017-03-30-Reset-ETSII-UPM",
+        "docs": "https://github.com/FPGAwars/workshops/wiki/2017_03_30:-Reset.-ETSII,-UPM"
+      },
+      {
         "id": "workshop_next",
         "link": "https://groups.google.com/forum/#!forum/fpga-wars-explorando-el-lado-libre"
       }
