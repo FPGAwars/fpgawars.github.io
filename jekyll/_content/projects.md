@@ -6,19 +6,63 @@ subtitle: Discover our main projects
 
 items:
 
-  - key: icezum
-    img: icezum.png
-    title: Icezum
+  - title: IceZUM
     subtitle: Open FPGA board for makers
     repo: https://github.com/fpgawars/icezum
     docs: https://github.com/fpgawars/icezum/wiki
 
-  - key: icestudio
-    img: icestudio.png
-    title: Icestudio
+  - title: Icestudio
     subtitle: Graphic editor for open FPGAs
+    link: https://github.com/fpgawars/icestudio
     repo: https://github.com/fpgawars/icestudio
     docs: http://icestudio.readthedocs.io
-    link: https://github.com/fpgawars/icestudio
+
+  - title: Apio
+    subtitle: Micro-ecosystem for open FPGAs
+    link: https://github.com/fpgawars/apio
+    repo: https://github.com/fpgawars/apio
+    docs: http://apiodoc.readthedocs.io
+
+  - title: Apio IDE
+    subtitle: Development IDE for open FPGAs
+    link: https://github.com/fpgawars/apio-ide
+    repo: https://github.com/fpgawars/apio-ide
+    docs: https://github.com/FPGAwars/apio-ide/wiki
+
+  - title: Simplez
+    subtitle: Educational CPU in Verilog
+    repo: https://github.com/Obijuan/simplez-fpga
+    docs: https://github.com/Obijuan/simplez-fpga/wiki/Procesador-SIMPLEZ-F
+
+  - title: Apollo CPU Core
+    subtitle: Apollo CPU in Verilog
+    repo: https://github.com/Obijuan/ACC
+    docs: https://github.com/Obijuan/ACC/wiki
+
+  - title: PIO Lattice iCE40
+    subtitle: PlatformIO support for open FPGAs
+    link: https://github.com/platformio/platform-lattice_ice40
+    repo: https://github.com/platformio/platform-lattice_ice40
+    docs: https://github.com/platformio/platform-lattice_ice40/wiki
+
+  - title: Apollo CPU Core
+    subtitle: Apollo CPU in Verilog
+    repo: https://github.com/Obijuan/ACC
+    docs: https://github.com/Obijuan/ACC/wiki
+
+  - title: Alhambra LED
+    subtitle: LED peripheral for the IceZUM Alhambra
+    repo: https://github.com/FPGAwars/alhambra-led
+    docs: https://github.com/FPGAwars/alhambra-led/wiki
+
+  - title: Alhambra button
+    subtitle: Button for the IceZUM Alhambra
+    repo: https://github.com/Obijuan/Alhambra-button
+    docs: https://github.com/Obijuan/Alhambra-button/wiki
+
+  - title: Alhambra support
+    subtitle: 3D support for the IceZUM Alhambra
+    repo: https://github.com/Obijuan/Icezum-Alhambra-3D-support
+    docs: https://github.com/Obijuan/Icezum-Alhambra-3D-support/wiki
 
 ---

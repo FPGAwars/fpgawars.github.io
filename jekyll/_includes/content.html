@@ -10,11 +10,11 @@
             </div>
             <div class="row">
             {% for item in section.items %}
-                <div id="{{ item.id }}"
+                <div id="{{ item.title }}"
                      class="col-md-4 col-sm-6 portfolio-item">
                     <a href="{{ item.link ? item.docs }}" class="portfolio-link bg-light-white" data-toggle="modal">
                         <div class="portfolio-hover"></div>
-                        <img src="img/projects/{{ item.img }}" class="img-responsive" alt="">
+                        <img src="img/projects/{{ item.title }}.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption bg-light-white">
                         <div class="row">
