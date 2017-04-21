@@ -1,0 +1,38 @@
+<!-- Content section {% if section.light == true %}bg-light-gray{% else %}bg-light-white{% endif %}-->
+{% for section in site.content %}
+    <section id="{{ section.key }}" class="{% if section.light == true %}bg-light-white{% else %}bg-light-gray{% endif %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ section.title }}</h2>
+                    <h3 class="section-subheading text-muted">{{ section.subtitle }}</h3>
+                </div>
+            </div>
+            <div class="row">
+            {% for item in section.items %}
+                <div id="{{ item.id }}"
+                     class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="{{ item.link ? item.docs }}" class="portfolio-link bg-light-white" data-toggle="modal">
+                        <div class="portfolio-hover"></div>
+                        <img src="img/projects/{{ item.img }}" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption bg-light-white">
+                        <div class="row">
+                            <h4>{{ item.title }}</h4>
+                            <a href="{{ item.docs }}">
+                                <i class="fa fa-book fa-2x"></i>
+                            </a>
+                            <a href="{{ item.repo }}">
+                                <i class="fa fa-github fa-2x"></i>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <p class="text-muted">{{ item.subtitle }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endfor %}

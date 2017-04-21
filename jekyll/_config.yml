@@ -6,11 +6,10 @@ title: FPGAwars
 email: fpgawars@gmail.com
 description: "Exploring the open side of the FPGAs"
 
-
 # Team names, titles and social links
 people:
 - name:
-  pic: 
+  pic:
   position:
   social:
     - title: twitter
@@ -23,3 +22,6 @@ people:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+  - content

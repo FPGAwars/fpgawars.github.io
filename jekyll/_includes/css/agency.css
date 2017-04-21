@@ -78,9 +78,7 @@ h6 {
 }
 
 .navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
+.navbar-default .navbar-brand:focus {
     color: #{{ site.data.template.color.white }};
 }
 
@@ -129,7 +127,7 @@ h6 {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #{{ site.data.template.color.white }};
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 @media(min-width:768px) {
