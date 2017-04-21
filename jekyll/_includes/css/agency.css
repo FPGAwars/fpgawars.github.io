@@ -204,7 +204,7 @@ header .intro-text .intro-tag {
     }
 
     header .intro-text .intro-phrase {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
         font-family: {{ site.data.template.font.primary }};
         font-size: 40px;
         font-style: italic;
@@ -212,7 +212,7 @@ header .intro-text .intro-tag {
     }
 
     header .intro-text .intro-tag {
-        margin-bottom: 40px;
+        margin-bottom: 50px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 33px;
         line-height: 33px;
@@ -227,7 +227,7 @@ header .intro-text .intro-tag {
     }
 
     header .intro-text .intro-phrase {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         font-family: {{ site.data.template.font.primary }};
         font-size: 48px;
         font-style: italic;
@@ -235,7 +235,7 @@ header .intro-text .intro-tag {
     }
 
     header .intro-text .intro-tag {
-        margin-bottom: 60px;
+        margin-bottom: 70px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
         line-height: 40px;
