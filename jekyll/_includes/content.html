@@ -1,4 +1,4 @@
-<!-- Content section {% if section.light == true %}bg-light-gray{% else %}bg-light-white{% endif %}-->
+<!-- Content section-->
 {% for section in site.content %}
     <section id="{{ section.key }}" class="{% if section.light == true %}bg-light-white{% else %}bg-light-gray{% endif %}">
         <div class="container">
@@ -12,11 +12,11 @@
             {% for item in section.items %}
                 <div id="{{ item.title }}"
                      class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="{{ item.link ? item.docs }}" class="portfolio-link bg-light-white" data-toggle="modal">
+                    <a href="{{ item.link ? item.docs }}" class="portfolio-link {% if section.light == true %}bg-light-gray{% else %}bg-light-white{% endif %}" data-toggle="modal">
                         <div class="portfolio-hover"></div>
-                        <img src="img/projects/{{ item.title }}.png" class="img-responsive" alt="">
+                        <img src="img/{{ section.key }}/{{ item.title }}.png" class="img-responsive" alt="">
                     </a>
-                    <div class="portfolio-caption bg-light-white">
+                    <div class="portfolio-caption {% if section.light == true %}bg-light-gray{% else %}bg-light-white{% endif %}">
                         <div class="row">
                             <h4>{{ item.title }}</h4>
                             <a href="{{ item.docs }}">
