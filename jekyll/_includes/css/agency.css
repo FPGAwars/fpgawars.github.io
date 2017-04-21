@@ -7,7 +7,6 @@
 body {
     overflow-x: hidden;
     font-family: {{ site.data.template.font.secondary }};
-    color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .text-muted {
@@ -27,23 +26,18 @@ p.large {
     font-size: 16px;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-}
-
 a {
-    color: #{{ site.data.template.color.primary }};
+  color: #222;
+  outline: 0;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s;
 }
-
 a:hover,
 a:focus,
-a:active,
-a.active {
-    color: #{{ site.data.template.color.secondary }};
+a:active {
+  color: #{{ site.data.template.color.primary }};
+  text-decoration: none;
 }
 
 h1,
@@ -53,7 +47,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.tertiary }};
     font-weight: 700;
 }
 
@@ -73,114 +67,13 @@ h6 {
     background-color: #222;
 }
 
-.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #004200;
-    border-color: #003800;
-}
-
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    background-image: none;
-}
-
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.btn-primary .badge {
-    color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
-}
-
-.btn-xl {
-    padding: 20px 40px;
-    border-color: #{{ site.data.template.color.primary }};
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
-}
-
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-    background-image: none;
-}
-
-.btn-xl.disabled,
-.btn-xl[disabled],
-fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
-fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
-fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
-fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
-fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.btn-xl .badge {
-    color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
-}
-
 .navbar-default {
     border-color: transparent;
     background-color: #222;
 }
 
 .navbar-default .navbar-brand {
-    color: #fff;
+    color: #{{ site.data.template.color.white }};
     font-family: {{ site.data.template.font.secondary }};
 }
 
@@ -188,7 +81,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fff;
+    color: #{{ site.data.template.color.white }};
 }
 
 .navbar-default .navbar-collapse {
@@ -198,14 +91,10 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-toggle {
     border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: {{ site.data.template.font.tertiary }};
     text-transform: uppercase;
-    color: #fff;
+    color: #{{ site.data.template.color.white }};
     font-size: 12px;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -215,16 +104,16 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
+    font-family: {{ site.data.template.font.tertiary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.data.template.color.white }};
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fff;
+    color: #{{ site.data.template.color.white }};
 }
 
 .navbar-default .nav li a:hover {
@@ -233,13 +122,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #{{ site.data.template.color.white }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #{{ site.data.template.color.white }};
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -276,7 +165,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #{{ site.data.template.color.white }};
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.png');
     background-position: center center;
@@ -323,7 +212,7 @@ header .intro-text .intro-tag {
     }
 
     header .intro-text .intro-tag {
-        margin-bottom: 45px;
+        margin-bottom: 40px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 33px;
         line-height: 33px;
@@ -346,7 +235,7 @@ header .intro-text .intro-tag {
     }
 
     header .intro-text .intro-tag {
-        margin-bottom: 54px;
+        margin-bottom: 60px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
         line-height: 40px;
@@ -877,12 +766,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: #{{ site.data.template.color.white }};
 }
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: #{{ site.data.template.color.white }};
 }
 
 img::selection {
