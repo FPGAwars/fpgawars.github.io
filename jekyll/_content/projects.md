@@ -45,11 +45,6 @@ items:
     repo: https://github.com/platformio/platform-lattice_ice40
     docs: https://github.com/platformio/platform-lattice_ice40/wiki
 
-  - title: Apollo CPU Core
-    subtitle: Apollo CPU in Verilog
-    repo: https://github.com/Obijuan/ACC
-    docs: https://github.com/Obijuan/ACC/wiki
-
   - title: Alhambra LED
     subtitle: LED peripheral for the IceZUM Alhambra
     repo: https://github.com/FPGAwars/alhambra-led
