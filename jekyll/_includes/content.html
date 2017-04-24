@@ -12,7 +12,7 @@
             {% for item in section.items %}
                 <div id="{{ item.title }}"
                      class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="{{ item.link ? item.docs }}" class="portfolio-link {% if section.light == true %}bg-light-gray{% else %}bg-light-white{% endif %}" data-toggle="modal">
+                    <a href="{% if item.link != null %}{{ item.link }}{% else %}{{ item.docs }}{% endif %}" class="portfolio-link {% if section.light == true %}bg-light-gray{% else %}bg-light-white{% endif %}" data-toggle="modal">
                         <div class="portfolio-hover"></div>
                         <img src="img/{{ section.key }}/{{ item.title }}.png" class="img-responsive" alt="">
                     </a>

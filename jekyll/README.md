@@ -4,4 +4,8 @@
 
 Based on [Start Bootstrap Agency Jekyll theme](https://github.com/y7kim/agency-jekyll-theme).
 
-Execute `jekyll serve` to run the website locally
+### Development
+
+Execute `jekyll serve` to run the website locally.
+
+The Projects-Tutorials-Workshops-Talks information is located in the `_content` directory and the images (600x510) in the `img` directory.
