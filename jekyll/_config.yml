@@ -8,16 +8,32 @@ description: "Exploring the open side of the FPGAs"
 
 # Team names, titles and social links
 people:
-- name:
-  pic:
-  position:
-  social:
-    - title: twitter
-      url: #
-    - title: github
-      url: #
-    - title: google-plus
-      url: #
+
+  - name: Juan González (Obijuan)
+    position: R&D Engineer
+    social:
+      - title: twitter
+        url: https://twitter.com/obijuan_cube
+      - title: google-plus
+        url: https://plus.google.com/+JuanGonzalezGomez
+      - title: github
+        url: https://github.com/obijuan
+
+  - name: Jesús Arroyo Torrens
+    position: R&D Engineer
+    social:
+      - title: twitter
+        url: https://twitter.com/JesusArroyo89
+      - title: google-plus
+        url: https://plus.google.com/115177854757724458184
+      - title: github
+        url: https://github.com/Jesus89
+
+  - name: Eladio Delgado
+    position: R&D Engineer
+    social:
+      - title: twitter
+        url: https://twitter.com/EladioDM
 
 # Build settings
 markdown: kramdown
