@@ -1,12 +1,4 @@
 {
-  "menu": "Menu",
-  "intro_phrase": "Exploring the open side of the FPGAs",
-  "free_software": "Free Software",
-  "free_software_desc": "You can use, study, distribute and improve our code, always released under GPL",
-  "open_hardware": "Open Hardware",
-  "open_hardware_desc": "Our boards and hardware description modules are Open and created with Open Tools",
-  "technological_heritage": "Technological Heritage",
-  "technological_heritage_desc": "All our work belongs to everybody and is part of the Technological Heritage",
   "projects": "Projects",
   "projects_desc": "Discover our main projects",
   "icezum": "IceZUM Alhambra",
@@ -29,12 +21,14 @@
   "a-button_desc":"Button for the Icezum Alhambra",
   "a-3Dsupport": "3D printable support",
   "a-3Dsupport_desc": "3D support for the Icezum Alhambra",
+
   "tutorials": "Tutorials",
   "tutorials_desc": "Learn about FPGAs with our tutorials",
   "introduction": "Introduction",
   "introduction_desc": "A trip inside FPGAs",
   "verilog": "Digital design in Verilog",
   "verilog_desc": "Introduction to Verilog language",
+  
   "workshops": "Workshops",
   "workshops_desc": "Remember the workshops we have done",
   "workshop_0": "UPM Reset",
@@ -78,13 +72,4 @@
   "talk_9_desc": "Fablab VLC, UPV, 4 Mar 2017",
   "talk_next": "Next talk...",
   "talk_next_desc": "Propose a new talk!",
-  "team": "Team",
-  "team_desc": "Meet the team members",
-  "juan_desc": "R&D Engineer",
-  "jesus_desc": "R&D Engineer",
-  "eladio_desc": "R&D Engineer",
-  "contribute": "Contribute",
-  "contribute_desc": "Send your doubts, solutions, suggestions, collaborate on projects, ...",
-  "github": "GitHub",
-  "google_group": "Google Group"
 }

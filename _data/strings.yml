@@ -6,30 +6,6 @@ intro-phrase:
   en: Exploring the open side of the FPGAs
   es: Explorando el lado libre de las FPGAs
 
-projects:
-  en: Projects
-  es: Proyectos
-
-tutorials:
-  en: Tutorials
-  es: Tutoriales
-
-workshops:
-  en: Workshops
-  es: Talleres
-
-talks:
-  en: Talks
-  es: Charlas
-
-team:
-  en: Team
-  es: Equipo
-
-contribute:
-  en: Contribute
-  es: Contribuye
-
 free-software:
   en: Free Software
   es: Software Libre
@@ -53,3 +29,43 @@ technological-heritage:
 technological-heritage-desc:
   en: All our work belongs to everybody and is part of the Technological Heritage
   es: Todo nuestro trabajo es de todos y forma parte del Patrimonio Tecnológico de la Humanidad
+
+projects:
+  en: Projects
+  es: Proyectos
+
+tutorials:
+  en: Tutorials
+  es: Tutoriales
+
+workshops:
+  en: Workshops
+  es: Talleres
+
+talks:
+  en: Talks
+  es: Charlas
+
+team:
+  en: Team
+  es: Equipo
+
+team-desc:
+  en: Meet the team members
+  es: Conoce a los miembros del equipo
+
+member-position:
+  en: R&D Engineer
+  es: Ingeniero de I+D
+
+contribute:
+  en: Contribute
+  es: Contribuye
+
+contribute-desc:
+  en: Send your doubts, solutions, suggestions, collaborate on projects, ...
+  es: Envía tus dudas, soluciones, sugerencias, colabora en los proyectos, ...
+
+google-group:
+  en: Google Group
+  es: Grupo de Google

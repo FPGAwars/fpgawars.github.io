@@ -1,12 +1,4 @@
 {
-  "menu": "Menú",
-  "intro_phrase": "Explorando el lado libre de las FPGAs",
-  "free_software": "Software Libre",
-  "free_software_desc": "Puedes usar, estudiar, distribuir y mejorar nuestro código, liberado siempre mediante GPL",
-  "open_hardware": "Hardware Libre",
-  "open_hardware_desc": "Nuestras placas y módulos de hardware son Libres y están creados con Herramientas Libres",
-  "technological_heritage": "Patrimonio Tecnológico",
-  "technological_heritage_desc": "Todo nuestro trabajo es de todos y forma parte del Patrimonio Tecnológico de la Humanidad",
   "projects": "Proyectos",
   "projects_desc": "Descubre nuestros principales proyectos",
   "icezum": "IceZUM Alhambra",
@@ -29,12 +21,14 @@
   "a-button_desc": "Botón para la Icezum Alhambra",
   "a-3Dsupport": "Soporte imprimible",
   "a-3Dsupport_desc": "Soporte imprimible para Icezum Alhambra",
+
   "tutorials": "Tutoriales",
   "tutorials_desc": "Aprende sobre FPGAs con nuestros tutoriales",
   "introduction": "Introducción",
   "introduction_desc": "Viaje al interior de las FPGAs",
   "verilog": "Diseño digital en Verilog",
   "verilog_desc": "Introducción al lenguaje Verilog",
+
   "workshops": "Talleres",
   "workshops_desc": "Recuerda los talleres que hemos realizado",
   "workshop_0": "UPM Reset",
@@ -53,6 +47,7 @@
   "workshop_6_desc": "ETSII, UPM - Reset, 30 Mar 2017",
   "workshop_next": "Siguiente taller...",
   "workshop_next_desc": "¡Propón un nuevo taller!",
+  
   "talks": "Charlas",
   "talks_desc": "Encuentra toda la información de nuestras charlas",
   "talk_0": "Granada Geek",
@@ -77,13 +72,4 @@
   "talk_9_desc": "Fablab VLC, UPV, 4 Mar 2017",
   "talk_next": "Siguiente charla...",
   "talk_next_desc": "¡Propón una nueva charla!",
-  "team": "Equipo",
-  "team_desc": "Conoce a los miembros del equipo",
-  "juan_desc": "Ingeniero de I+D",
-  "jesus_desc": "Ingeniero de I+D",
-  "eladio_desc": "Ingeniero de I+D",
-  "contribute": "Contribuye",
-  "contribute_desc": "Envía tus dudas, soluciones, sugerencias, colabora en los proyectos, ...",
-  "github": "GitHub",
-  "google_group": "Grupo de Google"
 }
