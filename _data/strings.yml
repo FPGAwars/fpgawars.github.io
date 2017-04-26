@@ -133,6 +133,26 @@ tutorials:
   en: Tutorials
   es: Tutoriales
 
+tutorials-desc:
+  en: Learn about FPGAs with our tutorials
+  es: Aprende sobre FPGAs con nuestros tutoriales
+
+introduction:
+  en: Introduction
+  es: Introducción
+
+introduction-desc:
+  en: A trip inside FPGAs
+  es: Viaje al interior de las FPGAs
+
+digital-design-verilog:
+  en: Digital design in Verilog
+  es: Diseño digital en Verilog
+
+digital-design-verilog-desc:
+  en: Introduction to Verilog language
+  es: Introducción al lenguaje Verilog
+
 
 workshops:
   en: Workshops

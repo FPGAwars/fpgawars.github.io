@@ -1,11 +1,4 @@
 {
-  "tutorials": "Tutorials",
-  "tutorials_desc": "Learn about FPGAs with our tutorials",
-  "introduction": "Introduction",
-  "introduction_desc": "A trip inside FPGAs",
-  "verilog": "Digital design in Verilog",
-  "verilog_desc": "Introduction to Verilog language",
-
   "workshops": "Workshops",
   "workshops_desc": "Remember the workshops we have done",
   "workshop_0": "UPM Reset",

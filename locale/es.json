@@ -1,11 +1,4 @@
 {
-  "tutorials": "Tutoriales",
-  "tutorials_desc": "Aprende sobre FPGAs con nuestros tutoriales",
-  "introduction": "Introducción",
-  "introduction_desc": "Viaje al interior de las FPGAs",
-  "verilog": "Diseño digital en Verilog",
-  "verilog_desc": "Introducción al lenguaje Verilog",
-
   "workshops": "Talleres",
   "workshops_desc": "Recuerda los talleres que hemos realizado",
   "workshop_0": "UPM Reset",
