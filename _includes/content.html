@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ section.title }}</h2>
-                    <h3 class="section-subheading text-muted">{{ section.subtitle }}</h3>
+                    <h2 class="section-heading">{{ section.title[include.lang] }}</h2>
+                    <h3 class="section-subheading text-muted">{{ section.subtitle[include.lang] }}</h3>
                 </div>
             </div>
             <div class="row">
@@ -18,17 +18,17 @@
                     </a>
                     <div class="portfolio-caption {% if section.light == true %}bg-light-gray{% else %}bg-light-white{% endif %}">
                         <div class="row">
-                            <h4>{{ item.title }}</h4>
+                            <h4><a href="{% if item.link != null %}{{ item.link }}{% else %}{{ item.docs }}{% endif %}">{{ item.title }}</a></h4>
                         </div>
                         <div class="row">
                             <p class="text-muted">{{ item.subtitle }}</p>
                         </div>
                         <div class="row">
                             <a href="{{ item.docs }}">
-                                <i class="fa fa-book fa-2x"></i>
+                                <i class="fa fa-book fa-lg"></i>
                             </a>
                             <a href="{{ item.repo }}">
-                                <i class="fa fa-github fa-2x"></i>
+                                <i class="fa fa-github fa-lg"></i>
                             </a>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-/*!
+/*
  * FPGAwars (c) 2016-2017
  * License: GPL-2.0
  * Credits: Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
@@ -10,6 +10,7 @@ body {
 }
 
 .text-muted {
+    margin-bottom: 20px;
     color: #{{ site.data.template.color.muted }};
 }
 
@@ -238,7 +239,6 @@ header .intro-text .intro-tag {
         font-size: 40px;
         line-height: 40px;
         color: #77c7f7;
-        color: #77c7f7;
     }
 }
 
@@ -445,14 +445,14 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-::-moz-selection {
-    text-shadow: none;
-    background: #{{ site.data.template.color.white }};
-}
-
 ::selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.white }};
+    background-color: rgba(0, 75, 0, .3);
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background-color: rgba(0, 75, 0, .3);
 }
 
 img::selection {
