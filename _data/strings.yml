@@ -158,6 +158,74 @@ workshops:
   en: Workshops
   es: Talleres
 
+workshops-desc:
+  en: Remember the workshops we have done
+  es: Recuerda los talleres que hemos realizado
+
+upm-reset-16:
+  en: UPM Reset 16
+  es: UPM Reset 16
+
+upm-reset-16-desc:
+  en: ETSII, UPM - Reset, 28 Oct 2016
+  es: ETSII, UPM - Reset, 28 Oct 2016
+
+oshwdem-16:
+  en: OSHWDem 16
+  es: OSHWDem 16
+
+oshwdem-16-desc:
+  en: Museo Domus Coruña, 05 Nov 2016
+  es: Museo Domus Coruña, 05 Nov 2016
+
+ourense-makerslab-16:
+  en: Ourense MakersLab 16
+  es: Ourense MakersLab 16
+
+ourense-makerslab-16-desc:
+  en: La Molinera Ourense, 10 Dec 2016
+  es: La Molinera Ourense, 10 Dic 2016
+
+ual-17:
+  en: UAL 17
+  es: UAL 17
+
+ual-17-desc:
+  en: ETS Ingenieria, UAL, 24 Feb 2017
+  es: ETS Ingeniería, UAL, 24 Feb 2017
+
+fablab-valencia:
+  en: FabLab Valencia
+  es: FabLab Valencia
+
+fablab-valencia-desc:
+  en: Fablab VLC, UPV, 4 Mar 2017
+  es: Fablab VLC, UPV, 4 Mar 2017
+
+hacklab-upm:
+  en: Hacklab UPM
+  es: Hacklab UPM
+
+hacklab-upm-desc:
+  en: Hacklab-UPM, ETSIDI, 14 Mar 2017
+  es: Hacklab-UPM, ETSIDI, 14 Mar 2017
+
+upm-reset-17:
+  en: UPM Reset 17
+  es: UPM Reset 17
+
+upm-reset-17-desc:
+  en: ETSII, UPM - Reset, 30 Mar 2017
+  es: ETSII, UPM - Reset, 30 Mar 2017
+
+next-workshop:
+  en: Next workshop...
+  es: Siguiente taller...
+
+next-workshop-desc:
+  en: Propose a new workshop!
+  es: ¡Propón un nuevo taller!
+
 
 talks:
   en: Talks
