@@ -8,7 +8,11 @@ Based on [Start Bootstrap Agency Jekyll theme](https://github.com/y7kim/agency-j
 
 Execute `jekyll serve` to run the website locally.
 
-The Projects-Tutorials-Workshops-Talks information is located in the `_content` directory and the images in the `img` directory. The images must be 600x510:
+#### Structure
+
+* `_content`: contains the keys and links of the Projects-Tutorials-Workshops-Talks.
+* `_data\strings.yml`: contains all the strings translated (en, es).
+* `img`: contains all the images. It is recommended to use the size 600x510px:
 
 ```
 $ convert input.png -background white -gravity center -extent 600x510 output.png
