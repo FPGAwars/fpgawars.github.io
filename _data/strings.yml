@@ -6,6 +6,7 @@ intro-phrase:
   en: Exploring the open side of the FPGAs
   es: Explorando el lado libre de las FPGAs
 
+
 free-software:
   en: Free Software
   es: Software Libre
@@ -30,21 +31,118 @@ technological-heritage-desc:
   en: All our work belongs to everybody and is part of the Technological Heritage
   es: Todo nuestro trabajo es de todos y forma parte del Patrimonio Tecnológico de la Humanidad
 
+
 projects:
   en: Projects
   es: Proyectos
+
+projects-desc:
+  en: Discover our main projects
+  es: Descubre nuestros principales proyectos
+
+icezum:
+  en: IceZUM Alhambra
+  es: IceZUM Alhambra
+
+icezum-desc:
+  en: Open FPGA board for makers
+  es: Placa con FPGA libre para makers
+
+icestudio:
+  en: Icestudio
+  es: Icestudio
+
+icestudio-desc:
+  en: Graphic editor for open FPGAs
+  es: Editor gráfico para FPGAs libres
+
+apio:
+  en: Apio
+  es: Apio
+
+apio-desc:
+  en: Micro-ecosystem for open FPGAs
+  es: Micro-ecosistema para FPGAs libres
+
+apio-ide:
+  en: Apio IDE
+  es: Apio IDE
+
+apio-ide-desc:
+  en: Development IDE for open FPGAs
+  es: IDE de desarrollo para FPGAs libres
+
+simplez:
+  en: Simplez
+  es: Simplez
+
+simplez-desc:
+  en: Educational CPU in Verilog
+  es: CPU educativa en Verilog
+
+acc:
+  en: Apollo CPU Core
+  es: Apollo CPU Core
+
+acc-desc:
+  en: Apollo CPU in Verilog
+  es: Apollo CPU en Verilog
+
+pio-ice40:
+  en: PIO Lattice iCE40
+  es: Apollo CPU Core
+
+pio-ice40-desc:
+  en: PlatformIO support for open FPGAs
+  es: Soporte en PlatformIO para FPGAs libres
+
+alhambra-led:
+  en: Alhambra LED
+  es: Alhambra LED
+
+alhambra-led-desc:
+  en: LED peripheral for the IceZUM Alhambra
+  es: Periférico LED para la Icezum Alhambra
+
+alhambra-led:
+  en: Alhambra LED
+  es: Alhambra LED
+
+alhambra-led-desc:
+  en: LED peripheral for the IceZUM Alhambra
+  es: Periférico LED para la IceZUM Alhambra
+
+alhambra-button:
+  en: Alhambra button
+  es: Alhambra botón
+
+alhambra-button-desc:
+  en: Button for the IceZUM Alhambra
+  es: Botón para la IceZUM Alhambra
+
+alhambra-support:
+  en: Alhambra support
+  es: Alhambra soporte
+
+alhambra-support-desc:
+  en: Printable support for the IceZUM Alhambra
+  es: Soporte imprimible para IceZUM Alhambra
+
 
 tutorials:
   en: Tutorials
   es: Tutoriales
 
+
 workshops:
   en: Workshops
   es: Talleres
 
+
 talks:
   en: Talks
   es: Charlas
+
 
 team:
   en: Team
@@ -57,6 +155,7 @@ team-desc:
 member-position:
   en: R&D Engineer
   es: Ingeniero de I+D
+
 
 contribute:
   en: Contribute

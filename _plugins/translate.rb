@@ -5,8 +5,8 @@ module Jekyll
       strings = site.data["strings"]
       raise "Missing key `#{key}`" if not strings.key?(key)
       texts = strings[key]
-      "<div class=\"en\">#{texts['en']}</div>
-       <div class=\"es hidden\">#{texts['es']}</div>"
+      "<span class=\"en\">#{texts['en']}</span>
+       <span class=\"es hidden\">#{texts['es']}</span>"
     end
   end
 end
