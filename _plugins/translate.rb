@@ -2,10 +2,11 @@ module Jekyll
   module Translate
     def translate(key)
       site = @context.registers[:site]
-      text_en = site.data['strings'][key]['en']
-      text_es = site.data['strings'][key]['es']
-      "<div class=\"en\">#{text_en}</div>
-       <div class=\"es hidden\">#{text_es}</div>"
+      strings = site.data["strings"]
+      raise "Missing key `#{key}`" if not strings.key?(key)
+      texts = strings[key]
+      "<div class=\"en\">#{texts['en']}</div>
+       <div class=\"es hidden\">#{texts['es']}</div>"
     end
   end
 end

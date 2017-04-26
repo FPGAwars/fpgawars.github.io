@@ -1,3 +1,55 @@
+menu:
+  en: Menu
+  es: Menú
+
 intro-phrase:
   en: Exploring the open side of the FPGAs
   es: Explorando el lado libre de las FPGAs
+
+projects:
+  en: Projects
+  es: Proyectos
+
+tutorials:
+  en: Tutorials
+  es: Tutoriales
+
+workshops:
+  en: Workshops
+  es: Talleres
+
+talks:
+  en: Talks
+  es: Charlas
+
+team:
+  en: Team
+  es: Equipo
+
+contribute:
+  en: Contribute
+  es: Contribuye
+
+free-software:
+  en: Free Software
+  es: Software Libre
+
+free-software-desc:
+  en: You can use, study, distribute and improve our code, always released under GPL
+  es: Puedes usar, estudiar, distribuir y mejorar nuestro código, liberado siempre mediante GPL
+
+open-hardware:
+  en: Open Hardware
+  es: Hardware libre
+
+open-hardware-desc:
+  en: Our boards and hardware description modules are Open and created with Open Tools
+  es: Nuestras placas y módulos de hardware son Libres y están creados con Herramientas Libres
+
+technological-heritage:
+  en: Technological Heritage
+  es: Patrimonio Tecnológico
+
+technological-heritage-desc:
+  en: All our work belongs to everybody and is part of the Technological Heritage
+  es: Todo nuestro trabajo es de todos y forma parte del Patrimonio Tecnológico de la Humanidad
