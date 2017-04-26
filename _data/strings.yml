@@ -1,0 +1,350 @@
+menu:
+  en: Menu
+  es: Menú
+
+intro-phrase:
+  en: Exploring the open side of the FPGAs
+  es: Explorando el lado libre de las FPGAs
+
+
+free-software:
+  en: Free Software
+  es: Software Libre
+
+free-software-desc:
+  en: You can use, study, distribute and improve our code, always released under GPL
+  es: Puedes usar, estudiar, distribuir y mejorar nuestro código, liberado siempre mediante GPL
+
+open-hardware:
+  en: Open Hardware
+  es: Hardware libre
+
+open-hardware-desc:
+  en: Our boards and hardware description modules are Open and created with Open Tools
+  es: Nuestras placas y módulos de hardware son Libres y están creados con Herramientas Libres
+
+technological-heritage:
+  en: Technological Heritage
+  es: Patrimonio Tecnológico
+
+technological-heritage-desc:
+  en: All our work belongs to everybody and is part of the Technological Heritage
+  es: Todo nuestro trabajo es de todos y forma parte del Patrimonio Tecnológico de la Humanidad
+
+
+projects:
+  en: Projects
+  es: Proyectos
+
+projects-desc:
+  en: Discover our main projects
+  es: Descubre nuestros principales proyectos
+
+icezum:
+  en: IceZUM Alhambra
+  es: IceZUM Alhambra
+
+icezum-desc:
+  en: Open FPGA board for makers
+  es: Placa con FPGA libre para makers
+
+icestudio:
+  en: Icestudio
+  es: Icestudio
+
+icestudio-desc:
+  en: Graphic editor for open FPGAs
+  es: Editor gráfico para FPGAs libres
+
+apio:
+  en: Apio
+  es: Apio
+
+apio-desc:
+  en: Micro-ecosystem for open FPGAs
+  es: Micro-ecosistema para FPGAs libres
+
+apio-ide:
+  en: Apio IDE
+  es: Apio IDE
+
+apio-ide-desc:
+  en: Development IDE for open FPGAs
+  es: IDE de desarrollo para FPGAs libres
+
+simplez:
+  en: Simplez
+  es: Simplez
+
+simplez-desc:
+  en: Educational CPU in Verilog
+  es: CPU educativa en Verilog
+
+acc:
+  en: Apollo CPU Core
+  es: Apollo CPU Core
+
+acc-desc:
+  en: Apollo CPU in Verilog
+  es: Apollo CPU en Verilog
+
+pio-ice40:
+  en: PIO Lattice iCE40
+  es: Apollo CPU Core
+
+pio-ice40-desc:
+  en: PlatformIO support for open FPGAs
+  es: Soporte en PlatformIO para FPGAs libres
+
+alhambra-led:
+  en: Alhambra LED
+  es: Alhambra LED
+
+alhambra-led-desc:
+  en: LED peripheral for the IceZUM Alhambra
+  es: Periférico LED para la Icezum Alhambra
+
+alhambra-led:
+  en: Alhambra LED
+  es: Alhambra LED
+
+alhambra-led-desc:
+  en: LED peripheral for the IceZUM Alhambra
+  es: Periférico LED para la IceZUM Alhambra
+
+alhambra-button:
+  en: Alhambra button
+  es: Alhambra botón
+
+alhambra-button-desc:
+  en: Button for the IceZUM Alhambra
+  es: Botón para la IceZUM Alhambra
+
+alhambra-support:
+  en: Alhambra support
+  es: Alhambra soporte
+
+alhambra-support-desc:
+  en: Printable support for the IceZUM Alhambra
+  es: Soporte imprimible para IceZUM Alhambra
+
+
+tutorials:
+  en: Tutorials
+  es: Tutoriales
+
+tutorials-desc:
+  en: Learn about FPGAs with our tutorials
+  es: Aprende sobre FPGAs con nuestros tutoriales
+
+introduction:
+  en: Introduction
+  es: Introducción
+
+introduction-desc:
+  en: A trip inside FPGAs
+  es: Viaje al interior de las FPGAs
+
+digital-design-verilog:
+  en: Digital design in Verilog
+  es: Diseño digital en Verilog
+
+digital-design-verilog-desc:
+  en: Introduction to Verilog language
+  es: Introducción al lenguaje Verilog
+
+
+workshops:
+  en: Workshops
+  es: Talleres
+
+workshops-desc:
+  en: Remember the workshops we have done
+  es: Recuerda los talleres que hemos realizado
+
+upm-reset-16:
+  en: UPM Reset 16
+  es: UPM Reset 16
+
+upm-reset-16-desc:
+  en: ETSII, UPM - Reset, 28 Oct 2016
+  es: ETSII, UPM - Reset, 28 Oct 2016
+
+oshwdem-16:
+  en: OSHWDem 16
+  es: OSHWDem 16
+
+oshwdem-16-desc:
+  en: Museo Domus Coruña, 05 Nov 2016
+  es: Museo Domus Coruña, 05 Nov 2016
+
+ourense-makerslab-16:
+  en: Ourense MakersLab 16
+  es: Ourense MakersLab 16
+
+ourense-makerslab-16-desc:
+  en: La Molinera Ourense, 10 Dec 2016
+  es: La Molinera Ourense, 10 Dic 2016
+
+ual-17:
+  en: UAL 17
+  es: UAL 17
+
+ual-17-desc:
+  en: ETS Ingenieria, UAL, 24 Feb 2017
+  es: ETS Ingeniería, UAL, 24 Feb 2017
+
+fablab-valencia-17:
+  en: FabLab Valencia
+  es: FabLab Valencia
+
+fablab-valencia-17-desc:
+  en: Fablab VLC, UPV, 4 Mar 2017
+  es: Fablab VLC, UPV, 4 Mar 2017
+
+hacklab-upm-17:
+  en: Hacklab UPM
+  es: Hacklab UPM
+
+hacklab-upm-17-desc:
+  en: Hacklab-UPM, ETSIDI, 14 Mar 2017
+  es: Hacklab-UPM, ETSIDI, 14 Mar 2017
+
+upm-reset-17:
+  en: UPM Reset 17
+  es: UPM Reset 17
+
+upm-reset-17-desc:
+  en: ETSII, UPM - Reset, 30 Mar 2017
+  es: ETSII, UPM - Reset, 30 Mar 2017
+
+next-workshop:
+  en: Next workshop...
+  es: Siguiente taller...
+
+next-workshop-desc:
+  en: Propose a new workshop!
+  es: ¡Propón un nuevo taller!
+
+
+talks:
+  en: Talks
+  es: Charlas
+
+talks-desc:
+  en: Find all the information about our talks
+  es: Encuentra toda la información de nuestras charlas
+
+granada-geek-16:
+  en: Granada Geek
+  es: Granada Geek
+
+granada-geek-16-desc:
+  en: ETSIIT, Universidad de Granada, 23 Sep 2016
+  es: ETSIIT, Universidad de Granada, 23 Sep 2016
+
+mini-maker-faire-16:
+  en: Mini Maker Faire
+  es: Mini Maker Faire
+
+mini-maker-faire-16-desc:
+  en: Medialab-Prado Madrid, 24 Sep 2016
+  es: Medialab-Prado Madrid, 24 Sep 2016
+
+el-evento-16:
+  en: El evento
+  es: El evento
+
+el-evento-16-desc:
+  en: UC3M Madrid, 24 Oct 2016
+  es: UC3M Madrid, 24 Oct 2016
+
+oshwdem-16:
+  en: OSHWDem 16
+  es: OSHWDem 16
+
+oshwdem-16-desc:
+  en: Museo Domus Coruña, 05 Nov 2016
+  es: Museo Domus Coruña, 05 Nov 2016
+
+urjc-16:
+  en: URJC 16
+  es: URJC 16
+
+urjc-16-desc:
+  en: URJC Fuenlabrada, 09 Nov 2016
+  es: URJC Fuenlabrada, 09 Nov 2016
+
+bilbao-maker-faire-16:
+  en: Bilbao Maker Faire
+  es: Bilbao Maker Faire
+
+bilbao-maker-faire-16-desc:
+  en: Open space Bilbao, 18 Nov 2016
+  es: Open space Bilbao, 18 Nov 2016
+
+ourense-makerslab-16:
+  en: Ourense MakersLab 16
+  es: Ourense MakersLab 16
+
+ourense-makerslab-16-desc:
+  en: La Molinera, 20 Dec 2016
+  es: La Molinera, 20 Dic 2016
+
+upm-17:
+  en: UPM 17
+  es: UPM 17
+
+upm-17-desc:
+  en: ETSIDI, UPM, 09 Feb 2017
+  es: ETSIDI, UPM, 09 Feb 2017
+
+ual-17:
+  en: UAL 17
+  es: UAL 17
+
+ual-17-desc:
+  en: ETS Ingenieria, UAL, 24 Feb 2017
+  es: ETS Ingenieria, UAL, 24 Feb 2017
+
+fablab-valencia-17:
+  en: Fablab Valencia 17
+  es: Fablab Valencia 17
+
+fablab-valencia-17-desc:
+  en: Fablab VLC, UPV, 4 Mar 2017
+  es: Fablab VLC, UPV, 4 Mar 2017
+
+next-talk:
+  en: Next talk...
+  es: Siguiente charla...
+
+next-talk-desc:
+  en: Propose a new talk!
+  es: ¡Propón una nueva charla!
+
+
+team:
+  en: Team
+  es: Equipo
+
+team-desc:
+  en: Meet the team members
+  es: Conoce a los miembros del equipo
+
+member-position:
+  en: R&D Engineer
+  es: Ingeniero de I+D
+
+
+contribute:
+  en: Contribute
+  es: Contribuye
+
+contribute-desc:
+  en: Send your doubts, solutions, suggestions, collaborate on projects, ...
+  es: Envía tus dudas, soluciones, sugerencias, colabora en los proyectos, ...
+
+google-group:
+  en: Google Group
+  es: Grupo de Google
