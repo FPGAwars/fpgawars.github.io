@@ -36,5 +36,15 @@ people:
 markdown: kramdown
 permalink: pretty
 
+# Collections
 collections:
   - content
+
+# Menu
+menu:
+  - projects
+  - tutorials
+  - workshops
+  - talks
+  - team
+  - contribute

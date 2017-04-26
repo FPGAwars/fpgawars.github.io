@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ section.key | translate }}</h2>
-                    <h3 class="section-subheading text-muted">{% assign desc = section.key | append: '-desc' %}{{ desc | translate }}</h3>
+                    <h2 class="section-heading">{% include translate.html key=section.key %}</h2>
+                    <h3 class="section-subheading text-muted">{% assign desc = section.key | append: '-desc' %}{% include translate.html key=desc %}</h3>
                 </div>
             </div>
             <div class="row">
@@ -18,10 +18,10 @@
                     </a>
                     <div class="portfolio-caption {% if section.light == true %}bg-light-gray{% else %}bg-light-white{% endif %}">
                         <div class="row">
-                            <h4><a href="{% if item.link != null %}{{ item.link }}{% else %}{{ item.docs }}{% endif %}">{{ item.key | translate }}</a></h4>
+                            <h4><a href="{% if item.link != null %}{{ item.link }}{% else %}{{ item.docs }}{% endif %}">{% include translate.html key=item.key %}</a></h4>
                         </div>
                         <div class="row">
-                            <p class="text-muted">{% assign desc = item.key | append: '-desc' %}{{ desc | translate }}</p>
+                            <p class="text-muted">{% assign desc = item.key | append: '-desc' %}{% include translate.html key=desc %}</p>
                         </div>
                         <div class="row">
                             <a href="{{ item.docs }}">
