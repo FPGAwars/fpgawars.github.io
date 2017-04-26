@@ -194,19 +194,19 @@ ual-17-desc:
   en: ETS Ingenieria, UAL, 24 Feb 2017
   es: ETS Ingeniería, UAL, 24 Feb 2017
 
-fablab-valencia:
+fablab-valencia-17:
   en: FabLab Valencia
   es: FabLab Valencia
 
-fablab-valencia-desc:
+fablab-valencia-17-desc:
   en: Fablab VLC, UPV, 4 Mar 2017
   es: Fablab VLC, UPV, 4 Mar 2017
 
-hacklab-upm:
+hacklab-upm-17:
   en: Hacklab UPM
   es: Hacklab UPM
 
-hacklab-upm-desc:
+hacklab-upm-17-desc:
   en: Hacklab-UPM, ETSIDI, 14 Mar 2017
   es: Hacklab-UPM, ETSIDI, 14 Mar 2017
 
@@ -230,6 +230,98 @@ next-workshop-desc:
 talks:
   en: Talks
   es: Charlas
+
+talks-desc:
+  en: Find all the information about our talks
+  es: Encuentra toda la información de nuestras charlas
+
+granada-geek-16:
+  en: Granada Geek
+  es: Granada Geek
+
+granada-geek-16-desc:
+  en: ETSIIT, Universidad de Granada, 23 Sep 2016
+  es: ETSIIT, Universidad de Granada, 23 Sep 2016
+
+mini-maker-faire-16:
+  en: Mini Maker Faire
+  es: Mini Maker Faire
+
+mini-maker-faire-16-desc:
+  en: Medialab-Prado Madrid, 24 Sep 2016
+  es: Medialab-Prado Madrid, 24 Sep 2016
+
+el-evento-16:
+  en: El evento
+  es: El evento
+
+el-evento-16-desc:
+  en: UC3M Madrid, 24 Oct 2016
+  es: UC3M Madrid, 24 Oct 2016
+
+oshwdem-16:
+  en: OSHWDem 16
+  es: OSHWDem 16
+
+oshwdem-16-desc:
+  en: Museo Domus Coruña, 05 Nov 2016
+  es: Museo Domus Coruña, 05 Nov 2016
+
+urjc-16:
+  en: URJC 16
+  es: URJC 16
+
+urjc-16-desc:
+  en: URJC Fuenlabrada, 09 Nov 2016
+  es: URJC Fuenlabrada, 09 Nov 2016
+
+bilbao-maker-faire-16:
+  en: Bilbao Maker Faire
+  es: Bilbao Maker Faire
+
+bilbao-maker-faire-16-desc:
+  en: Open space Bilbao, 18 Nov 2016
+  es: Open space Bilbao, 18 Nov 2016
+
+ourense-makerslab-16:
+  en: Ourense MakersLab 16
+  es: Ourense MakersLab 16
+
+ourense-makerslab-16-desc:
+  en: La Molinera, 20 Dec 2016
+  es: La Molinera, 20 Dic 2016
+
+upm-17:
+  en: UPM 17
+  es: UPM 17
+
+upm-17-desc:
+  en: ETSIDI, UPM, 09 Feb 2017
+  es: ETSIDI, UPM, 09 Feb 2017
+
+ual-17:
+  en: UAL 17
+  es: UAL 17
+
+ual-17-desc:
+  en: ETS Ingenieria, UAL, 24 Feb 2017
+  es: ETS Ingenieria, UAL, 24 Feb 2017
+
+fablab-valencia-17:
+  en: Fablab Valencia 17
+  es: Fablab Valencia 17
+
+fablab-valencia-17-desc:
+  en: Fablab VLC, UPV, 4 Mar 2017
+  es: Fablab VLC, UPV, 4 Mar 2017
+
+next-talk:
+  en: Next talk...
+  es: Siguiente charla...
+
+next-talk-desc:
+  en: Propose a new talk!
+  es: ¡Propón una nueva charla!
 
 
 team:
