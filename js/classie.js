@@ -1,7 +1,7 @@
 /*!
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
- * 
+ *
  * classie.has( elem, 'my-class' ) -> true/false
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
@@ -18,7 +18,7 @@
 // class helper functions from bonzo https://github.com/ded/bonzo
 
 function classReg( className ) {
-  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+  return new RegExp('(^|\\s+)' + className + '(\\s+|$)');
 }
 
 // classList support for class management

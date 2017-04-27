@@ -37,15 +37,14 @@ var detectedLang = navigator.language.substr(0, 2);
 loadLanguage(detectedLang);
 
 $('#lang-en').click(function(/*event*/) {
-  loadLanguage('en');
+  loadLanguage('en', true);
 });
 
 $('#lang-es').click(function(/*event*/) {
-  loadLanguage('es');
+  loadLanguage('es', true);
 });
 
-function loadLanguage(newLang) {
-  //alert(lang + ' ' + newLang);
+function loadLanguage(newLang, moveTop) {
   if (lang !== newLang) {
     // Language changed
     for (var i in languages) {
@@ -57,9 +56,11 @@ function loadLanguage(newLang) {
       }
       lang = newLang;
     }
-    // Move to top
-    $('html, body').stop().animate({
-      scrollTop: 0
-    }, 1000, 'easeInOutExpo');
+    if (moveTop) {
+      // Move to top
+      $('html, body').stop().animate({
+        scrollTop: 0
+      }, 1000, 'easeInOutExpo');
+    }
   }
 }
