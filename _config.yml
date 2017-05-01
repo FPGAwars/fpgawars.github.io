@@ -32,6 +32,13 @@ people:
       - title: twitter
         url: https://twitter.com/EladioDM
 
+  - name: Andrés Prieto-Moreno
+    social:
+      - title: twitter
+        url: https://twitter.com/Keithpmt
+      - tittle: github
+        url: https://github.com/andrespmt
+
 # Build settings
 markdown: kramdown
 permalink: pretty
