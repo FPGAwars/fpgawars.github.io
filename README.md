@@ -14,6 +14,6 @@ Execute `jekyll serve` to run the website locally.
 * `_data\strings.yml`: contains all the strings translated (en, es).
 * `img`: contains all the images. It is recommended to use the size 600x510px:
 
-```
-$ convert input.png -background white -gravity center -extent 600x510 output.png
-```
+Projects & Tutorials: `convert input.png -background white -gravity center -extent 600x510 output.png`
+
+Workshops & Talks: `convert input.png -resize 550 -background white -gravity center -extent 600x510 output.png`
