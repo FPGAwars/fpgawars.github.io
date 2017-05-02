@@ -128,6 +128,13 @@ alhambra-support-desc:
   en: Printable support for the IceZUM Alhambra
   es: Soporte imprimible para IceZUM Alhambra
 
+alhambra-switch:
+  en: Alhambra switch
+  es: Alhambra interruptor
+
+alhambra-switch-desc:
+  en: Switch for the IceZUM Alhambra
+  es: Interruptor para la IceZUM Alhambra
 
 tutorials:
   en: Tutorials
