@@ -90,7 +90,7 @@ acc-desc:
 
 pio-ice40:
   en: PIO Lattice iCE40
-  es: Apollo CPU Core
+  es: PIO Lattice iCE40
 
 pio-ice40-desc:
   en: PlatformIO support for open FPGAs
@@ -103,14 +103,6 @@ alhambra-led:
 alhambra-led-desc:
   en: LED peripheral for the IceZUM Alhambra
   es: Periférico LED para la Icezum Alhambra
-
-alhambra-led:
-  en: Alhambra LED
-  es: Alhambra LED
-
-alhambra-led-desc:
-  en: LED peripheral for the IceZUM Alhambra
-  es: Periférico LED para la IceZUM Alhambra
 
 alhambra-button:
   en: Alhambra button
@@ -126,7 +118,7 @@ alhambra-support:
 
 alhambra-support-desc:
   en: Printable support for the IceZUM Alhambra
-  es: Soporte imprimible para IceZUM Alhambra
+  es: Soporte imprimible para la IceZUM Alhambra
 
 alhambra-switch:
   en: Alhambra switch
