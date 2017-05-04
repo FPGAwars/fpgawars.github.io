@@ -117,8 +117,8 @@ alhambra-support:
   es: Alhambra soporte
 
 alhambra-support-desc:
-  en: Printable support for the IceZUM Alhambra
-  es: Soporte imprimible para la IceZUM Alhambra
+  en: 3D support for the IceZUM Alhambra
+  es: Soporte 3D para la IceZUM Alhambra
 
 alhambra-switch:
   en: Alhambra switch
@@ -194,16 +194,16 @@ ual-17-desc:
   es: ETS Ingeniería, UAL, 24 Feb 2017
 
 fablab-valencia-17:
-  en: FabLab Valencia
-  es: FabLab Valencia
+  en: FabLab Valencia 17
+  es: FabLab Valencia 17
 
 fablab-valencia-17-desc:
   en: Fablab VLC, UPV, 4 Mar 2017
   es: Fablab VLC, UPV, 4 Mar 2017
 
 hacklab-upm-17:
-  en: Hacklab UPM
-  es: Hacklab UPM
+  en: Hacklab UPM 17
+  es: Hacklab UPM 17
 
 hacklab-upm-17-desc:
   en: Hacklab-UPM, ETSIDI, 14 Mar 2017
@@ -235,24 +235,24 @@ talks-desc:
   es: Encuentra toda la información de nuestras charlas
 
 granada-geek-16:
-  en: Granada Geek
-  es: Granada Geek
+  en: Granada Geek 16
+  es: Granada Geek 16
 
 granada-geek-16-desc:
   en: ETSIIT, Universidad de Granada, 23 Sep 2016
   es: ETSIIT, Universidad de Granada, 23 Sep 2016
 
 mini-maker-faire-16:
-  en: Mini Maker Faire
-  es: Mini Maker Faire
+  en: Mini Maker Faire 16
+  es: Mini Maker Faire 16
 
 mini-maker-faire-16-desc:
   en: Medialab-Prado Madrid, 24 Sep 2016
   es: Medialab-Prado Madrid, 24 Sep 2016
 
 el-evento-16:
-  en: El evento
-  es: El evento
+  en: El evento 16
+  es: El evento 16
 
 el-evento-16-desc:
   en: UC3M Madrid, 24 Oct 2016
@@ -275,8 +275,8 @@ urjc-16-desc:
   es: URJC Fuenlabrada, 09 Nov 2016
 
 bilbao-maker-faire-16:
-  en: Bilbao Maker Faire
-  es: Bilbao Maker Faire
+  en: Bilbao Maker Faire 16
+  es: Bilbao Maker Faire 16
 
 bilbao-maker-faire-16-desc:
   en: Open space Bilbao, 18 Nov 2016
