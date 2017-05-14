@@ -24,10 +24,10 @@
                             <p class="text-muted">{% assign desc = item.key | append: '-desc' %}{% include translate.html key=desc %}</p>
                         </div>
                         <div class="row">
-                            <a href="{{ item.docs }}">
+                            <a href="{{ item.docs }}" style="{% if item.docs == null %}visibility: hidden;{% endif %}">
                                 <i class="fa fa-book fa-lg"></i>
                             </a>
-                            <a href="{{ item.repo }}">
+                            <a href="{{ item.repo }}" style="{% if item.repo == null %}visibility: hidden;{% endif %}">
                                 <i class="fa fa-github fa-lg"></i>
                             </a>
                         </div>
