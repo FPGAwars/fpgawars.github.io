@@ -152,6 +152,14 @@ digital-design-verilog-desc:
   en: Introduction to Verilog language
   es: Introducción al lenguaje Verilog
 
+logic-puzzles:
+  en: Knights and knaves
+  es: Caballeros y escuderos
+
+logic-puzzles-desc:
+  en: Solving logic puzzles with FPGAs
+  es: Resolviendo acertijos lógicos con FPGAs
+
 
 workshops:
   en: Workshops
