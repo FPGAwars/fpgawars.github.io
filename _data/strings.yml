@@ -225,6 +225,14 @@ upm-reset-17-desc:
   en: ETSII, UPM - Reset, 30 Mar 2017
   es: ETSII, UPM - Reset, 30 Mar 2017
 
+uc-17:
+  en: Cantabria University 17
+  es: Universidad de Cantabria 17
+
+uc-17-desc:
+  en: Summer course, UC - July 6th 2017
+  es: Curso verano, UC - 6 Julio 2017
+
 next-workshop:
   en: Next workshop...
   es: Siguiente taller...
