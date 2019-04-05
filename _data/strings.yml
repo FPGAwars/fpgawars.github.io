@@ -144,6 +144,14 @@ introduction-desc:
   en: A trip inside FPGAs
   es: Viaje al interior de las FPGAs
 
+digital-fpga-makers:
+  en: Digital electronics with Open source FPGAs
+  es: Electrónica digital con FPGAs libres
+
+digital-fpga-makers-desc:
+  en: Digital electronics for makers, using Open Source FPGAs
+  es: Electrónica digital para makers, con FPGAs libres
+
 digital-design-verilog:
   en: Digital design in Verilog
   es: Diseño digital en Verilog
