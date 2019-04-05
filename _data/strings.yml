@@ -40,6 +40,14 @@ projects-desc:
   en: Discover our main projects
   es: Descubre nuestros principales proyectos
 
+alhambra-ii:
+  en: Alhambra II
+  es: Alhambra II
+
+alhambra-ii-desc:
+  en: Open FPGA board for makers
+  es: Placa con FPGA libre para makers
+
 icezum:
   en: IceZUM Alhambra
   es: IceZUM Alhambra
