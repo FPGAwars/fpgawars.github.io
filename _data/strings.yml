@@ -136,6 +136,14 @@ alhambra-switch-desc:
   en: Switch for the IceZUM Alhambra
   es: Interruptor para la IceZUM Alhambra
 
+jelly-kbd:
+  en: Jelly matrix keyboard
+  es: Teclado matricial Jelly
+
+jelly-kbd-desc:
+  en: Hacking and examples of use
+  es: Trucaje y ejemplos de uso
+
 tutorials:
   en: Tutorials
   es: Tutoriales
