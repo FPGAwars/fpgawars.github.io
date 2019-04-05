@@ -144,6 +144,14 @@ jelly-kbd-desc:
   en: Hacking and examples of use
   es: Trucaje y ejemplos de uso
 
+icebot:
+  en: Icebot
+  es: Icebot
+
+icebot-desc:
+  en: FPGA educational Printbot
+  es: Printbot educativo con FPGA
+
 tutorials:
   en: Tutorials
   es: Tutoriales
