@@ -64,6 +64,14 @@ icestudio-desc:
   en: Graphic editor for open FPGAs
   es: Editor gráfico para FPGAs libres
 
+collection-jedi:
+  en: Jedi collection
+  es: Jedi collection
+
+collection-jedi-desc:
+  en: Icestudio block collection
+  es: Colección de bloques para Icestudio
+
 apio:
   en: Apio
   es: Apio
