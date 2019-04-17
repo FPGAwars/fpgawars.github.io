@@ -64,6 +64,13 @@ icestudio-desc:
   en: Graphic editor for open FPGAs
   es: Editor gráfico para FPGAs libres
 
+icecrystal:
+  en: iceCrystal
+  es: iceCrystal
+
+icecrystal-desc:
+  en: Icestudio Collection to drive LCDs
+
 collection-jedi:
   en: Jedi collection
   es: Jedi collection
