@@ -39,6 +39,13 @@ people:
       - title: github
         url: https://github.com/andrespmt
 
+  - name: Carlos Venegas Arrabe (cavearr)
+    social:
+      - title: twitter
+        url: https://twitter.com/cavearr
+      - title: github
+        url: https://github.com/cavearr
+
 # Build settings
 markdown: kramdown
 permalink: pretty
