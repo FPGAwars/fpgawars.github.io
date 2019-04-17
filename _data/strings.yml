@@ -72,6 +72,14 @@ collection-jedi-desc:
   en: Icestudio block collection
   es: Colección de bloques para Icestudio
 
+icefactory:
+  en: IceFactory
+  es: IceFactory
+
+icefactory-desc:
+  en: Icestudio block factory
+  es: Fábrica de bloques para Icestudio
+
 apio:
   en: Apio
   es: Apio
@@ -165,8 +173,8 @@ tutorials:
   es: Tutoriales
 
 tutorials-desc:
-  en: Learn about FPGAs with our tutorials
-  es: Aprende sobre FPGAs con nuestros tutoriales
+  en: Learn about Opensource FPGAs
+  es: Aprende sobre FPGAs Libres
 
 introduction:
   en: Introduction
