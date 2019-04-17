@@ -37,8 +37,8 @@ projects:
   es: Proyectos
 
 projects-desc:
-  en: Discover our main projects
-  es: Descubre nuestros principales proyectos
+  en: Index of projects developed with Open Source FPGAs
+  es: Indice de proyectos hechos con FPGAs libres
 
 alhambra-ii:
   en: Alhambra II
