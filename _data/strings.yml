@@ -112,6 +112,14 @@ z80icestudio-desc:
   en: Z80 CPU for Icestudio
   es: CPU Z80 para Icestudio
 
+riscvicestudio:
+  en: RISC-V
+  es: RISC-V
+
+riscvicestudio-desc:
+  en: 32-bits RISC-V for Icestudio
+  es: RISC-V de 32 bits para Icestudio
+
 apio:
   en: Apio
   es: Apio
