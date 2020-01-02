@@ -240,6 +240,14 @@ tech-notebooks-desc:
   en: Technical notes about Open Source FPGAs
   es: Notas técnicas sobre FPGAs libres
 
+riscv-ao-urjc:
+  en: RISC-V LAB
+  es: Laboratorio RISC-V
+
+riscv-ao-urjc-desc:
+  en: Practical course on RISC-V
+  es: Curso práctico sobre el RISC-V
+
 digital-design-verilog:
   en: Digital design in Verilog
   es: Diseño digital en Verilog
