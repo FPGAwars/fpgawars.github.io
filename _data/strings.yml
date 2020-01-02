@@ -96,6 +96,14 @@ icefactory-desc:
   en: Icestudio block factory
   es: Fábrica de bloques para Icestudio
 
+webterm:
+  en: WebTerm
+  es: WebTerm
+
+webterm-desc:
+  en: Web Serial Terminal
+  es: Terminal Serie Web
+
 apio:
   en: Apio
   es: Apio
