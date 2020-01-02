@@ -72,6 +72,14 @@ icecrystal-desc:
   en: Icestudio Collection to drive LCDs
   es: Colección de Icestudio para LCDs
 
+stdio:
+  en: stdio
+  es: stdio
+
+stdio-desc:
+  en: Icestudio Collection for standard I/O
+  es: Colección de Icestudio para E/S estándar
+
 collection-jedi:
   en: Jedi collection
   es: Jedi collection
