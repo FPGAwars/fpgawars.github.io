@@ -208,6 +208,14 @@ icebot-desc:
   en: FPGA educational Printbot
   es: Printbot educativo con FPGA
 
+cherry-mx:
+  en: Cherry-mx PCBPrint
+  es: PCBPrint Cherry-mx
+
+cherry-mx-desc:
+  en: Cherry-mx switch for the Alhambra board
+  es: Pulsador cherry-mx para la placa Alhambra
+
 tutorials:
   en: Tutorials
   es: Tutoriales
