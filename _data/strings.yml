@@ -104,6 +104,14 @@ webterm-desc:
   en: Web Serial Terminal
   es: Terminal Serie Web
 
+toggle:
+  en: Toggle Button
+  es: Toggle Button
+
+toggle-desc:
+  en: Web Serial Toggle Button
+  es: Botón Serie Web
+
 z80icestudio:
   en: Z80 CPU
   es: CPU Z80
