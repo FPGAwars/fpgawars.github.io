@@ -128,6 +128,14 @@ riscvicestudio-desc:
   en: 32-bits RISC-V for Icestudio
   es: RISC-V de 32 bits para Icestudio
 
+j1aswapforthicestudio:
+  en: J1a-SwapForth
+  es: J1a-SwapForth
+
+j1aswapforthicestudio-desc:
+  en: Minimal CPU that runs SwapForth
+  es: CPU mínima que ejecuta SwapForth
+
 apio:
   en: Apio
   es: Apio
