@@ -88,6 +88,14 @@ collection-jedi-desc:
   en: Icestudio block collection
   es: Colección de bloques para Icestudio
 
+collection-LOVE:
+  en: LOVE-FPGA Collection
+  es: Colección LOVE-FPGA
+
+collection-LOVE-desc:
+  en: Icestudio Collection for virtual components
+  es: Colección de Icestudio para componentes virtuales
+
 icefactory:
   en: IceFactory
   es: IceFactory
@@ -95,6 +103,14 @@ icefactory:
 icefactory-desc:
   en: Icestudio block factory
   es: Fábrica de bloques para Icestudio
+
+LOVE-FPGA:
+  en: LOVE-FPGA Project
+  es: Projecto LOVE-FPGA
+
+LOVE-FPGA-desc:
+  en: Linking Of Virtual Electronics to FPGAs
+  es: Conectando electrónica virtual a FPGAs
 
 webterm:
   en: WebTerm
