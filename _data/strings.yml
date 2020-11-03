@@ -112,6 +112,14 @@ LOVE-FPGA-desc:
   en: Linking Of Virtual Electronics to FPGAs
   es: Conectando electrónica virtual a FPGAs
 
+icemem:
+  en: Icemem
+  es: Icemem
+
+icemem-desc:
+  en: Icestudio Collection with Memory blocks
+  es: Colección de Icestudio con bloques de memorias
+
 webterm:
   en: WebTerm
   es: WebTerm
