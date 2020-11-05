@@ -31,7 +31,17 @@ $('.navbar-collapse ul li a').click(function() {
 
 var lang = '';
 var languages = ['en', 'es'];
-var detectedLang = navigator.language.substr(0, 2);
+var preferredLanguages = navigator.languages || [navigator.language];
+var detectedLang = 'es';// Default if none of the user’s languages is available.
+preferredLanguages.some(function (lang) {
+    lang = lang.split('-')[0];
+    if (languages.indexOf(lang) !== -1) {
+        detectedLang = lang;
+        return true;
+    } else {
+        return false;
+    }
+});
 
 // Set detected language
 loadLanguage(detectedLang);
