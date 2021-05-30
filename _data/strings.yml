@@ -120,6 +120,14 @@ icemem-desc:
   en: Icestudio Collection with Memory blocks
   es: Colección de Icestudio con bloques de memorias
 
+iceK:
+  en: IceK
+  es: IceK
+
+iceK-desc:
+  en: Icestudio Collection with Constants
+  es: Colección de Icestudio con Constantes
+
 webterm:
   en: WebTerm
   es: WebTerm
